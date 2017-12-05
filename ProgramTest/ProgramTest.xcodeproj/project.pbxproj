@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6434CBE81FD6C59500056A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434CBE71FD6C59500056A30 /* AppDelegate.m */; };
+		6434CBEB1FD6C59500056A30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434CBEA1FD6C59500056A30 /* ViewController.m */; };
+		6434CBEE1FD6C59500056A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6434CBEC1FD6C59500056A30 /* Main.storyboard */; };
+		6434CBF01FD6C59500056A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6434CBEF1FD6C59500056A30 /* Assets.xcassets */; };
+		6434CBF31FD6C59500056A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6434CBF11FD6C59500056A30 /* LaunchScreen.storyboard */; };
+		6434CBF61FD6C59600056A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434CBF51FD6C59600056A30 /* main.m */; };
+		6434CBFC1FD6C5C000056A30 /* ZZW_FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434CBFB1FD6C5C000056A30 /* ZZW_FPSLabel.m */; };
 		64DE28201FAD6BC700BE0315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE281F1FAD6BC700BE0315 /* AppDelegate.m */; };
 		64DE28231FAD6BC700BE0315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE28221FAD6BC700BE0315 /* ViewController.m */; };
 		64DE28261FAD6BC700BE0315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE28241FAD6BC700BE0315 /* Main.storyboard */; };
@@ -22,6 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6434CBE41FD6C59500056A30 /* FPSCaculate(帧率计算).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FPSCaculate(帧率计算).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6434CBE61FD6C59500056A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6434CBE71FD6C59500056A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6434CBE91FD6C59500056A30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6434CBEA1FD6C59500056A30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6434CBED1FD6C59500056A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6434CBEF1FD6C59500056A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6434CBF21FD6C59500056A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6434CBF41FD6C59600056A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6434CBF51FD6C59600056A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6434CBFA1FD6C5C000056A30 /* ZZW_FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZW_FPSLabel.h; sourceTree = "<group>"; };
+		6434CBFB1FD6C5C000056A30 /* ZZW_FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZW_FPSLabel.m; sourceTree = "<group>"; };
 		64DE281B1FAD6BC700BE0315 /* ProgramTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DE281E1FAD6BC700BE0315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64DE281F1FAD6BC700BE0315 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6434CBE11FD6C59500056A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64DE28181FAD6BC700BE0315 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +88,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6434CBE51FD6C59500056A30 /* FPSCaculate(帧率计算) */ = {
+			isa = PBXGroup;
+			children = (
+				6434CBE61FD6C59500056A30 /* AppDelegate.h */,
+				6434CBE71FD6C59500056A30 /* AppDelegate.m */,
+				6434CBE91FD6C59500056A30 /* ViewController.h */,
+				6434CBEA1FD6C59500056A30 /* ViewController.m */,
+				6434CBFA1FD6C5C000056A30 /* ZZW_FPSLabel.h */,
+				6434CBFB1FD6C5C000056A30 /* ZZW_FPSLabel.m */,
+				6434CBEC1FD6C59500056A30 /* Main.storyboard */,
+				6434CBEF1FD6C59500056A30 /* Assets.xcassets */,
+				6434CBF11FD6C59500056A30 /* LaunchScreen.storyboard */,
+				6434CBF41FD6C59600056A30 /* Info.plist */,
+				6434CBF51FD6C59600056A30 /* main.m */,
+			);
+			path = "FPSCaculate(帧率计算)";
+			sourceTree = "<group>";
+		};
 		64DE28121FAD6BC700BE0315 = {
 			isa = PBXGroup;
 			children = (
 				64DE281D1FAD6BC700BE0315 /* ProgramTest */,
 				64DE28391FAD6C1A00BE0315 /* CaculateMethodET(方法执行时间计算) */,
+				6434CBE51FD6C59500056A30 /* FPSCaculate(帧率计算) */,
 				64DE281C1FAD6BC700BE0315 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +121,7 @@
 			children = (
 				64DE281B1FAD6BC700BE0315 /* ProgramTest.app */,
 				64DE28381FAD6C1A00BE0315 /* CaculateMethodET(方法执行时间计算).app */,
+				6434CBE41FD6C59500056A30 /* FPSCaculate(帧率计算).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +161,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6434CBE31FD6C59500056A30 /* FPSCaculate(帧率计算) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6434CBF91FD6C59600056A30 /* Build configuration list for PBXNativeTarget "FPSCaculate(帧率计算)" */;
+			buildPhases = (
+				6434CBE01FD6C59500056A30 /* Sources */,
+				6434CBE11FD6C59500056A30 /* Frameworks */,
+				6434CBE21FD6C59500056A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FPSCaculate(帧率计算)";
+			productName = "FPSCaculate(帧率计算)";
+			productReference = 6434CBE41FD6C59500056A30 /* FPSCaculate(帧率计算).app */;
+			productType = "com.apple.product-type.application";
+		};
 		64DE281A1FAD6BC700BE0315 /* ProgramTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64DE28311FAD6BC800BE0315 /* Build configuration list for PBXNativeTarget "ProgramTest" */;
@@ -158,6 +221,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = zhouzewen;
 				TargetAttributes = {
+					6434CBE31FD6C59500056A30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					64DE281A1FAD6BC700BE0315 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -183,11 +250,22 @@
 			targets = (
 				64DE281A1FAD6BC700BE0315 /* ProgramTest */,
 				64DE28371FAD6C1A00BE0315 /* CaculateMethodET(方法执行时间计算) */,
+				6434CBE31FD6C59500056A30 /* FPSCaculate(帧率计算) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6434CBE21FD6C59500056A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6434CBF31FD6C59500056A30 /* LaunchScreen.storyboard in Resources */,
+				6434CBF01FD6C59500056A30 /* Assets.xcassets in Resources */,
+				6434CBEE1FD6C59500056A30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64DE28191FAD6BC700BE0315 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +289,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6434CBE01FD6C59500056A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6434CBFC1FD6C5C000056A30 /* ZZW_FPSLabel.m in Sources */,
+				6434CBEB1FD6C59500056A30 /* ViewController.m in Sources */,
+				6434CBF61FD6C59600056A30 /* main.m in Sources */,
+				6434CBE81FD6C59500056A30 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64DE28171FAD6BC700BE0315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +323,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6434CBEC1FD6C59500056A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6434CBED1FD6C59500056A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6434CBF11FD6C59500056A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6434CBF21FD6C59500056A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		64DE28241FAD6BC700BE0315 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,6 +374,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6434CBF71FD6C59600056A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FPSCaculate(帧率计算)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.FPSCaculate------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6434CBF81FD6C59600056A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FPSCaculate(帧率计算)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.FPSCaculate------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		64DE282F1FAD6BC800BE0315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +559,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6434CBF91FD6C59600056A30 /* Build configuration list for PBXNativeTarget "FPSCaculate(帧率计算)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6434CBF71FD6C59600056A30 /* Debug */,
+				6434CBF81FD6C59600056A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64DE28161FAD6BC700BE0315 /* Build configuration list for PBXProject "ProgramTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
