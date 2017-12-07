@@ -11,12 +11,20 @@
 @interface ViewController ()
 @property(nonatomic,strong)UIView *view1;
 @property(nonatomic,assign)BOOL isZoom;
+@property(nonatomic,strong)UIWindow *window;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+//    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    _window.windowLevel = UIWindowLevelAlert;
+//    _window.backgroundColor = [UIColor grayColor];
+    
+    
     _isZoom = YES;
     _view1 = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 150, 150)];
     _view1.backgroundColor = [UIColor redColor];
@@ -27,6 +35,8 @@
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(10 + 150 + 10, 100, 150, 150)];
     view2.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:view2];
+    UITapGestureRecognizer *tap2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scalingView2:)];
+    [view2 addGestureRecognizer:tap2];
     
     UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake(10, 100 + 10 + 150, 150, 150)];
     view3.backgroundColor = [UIColor cyanColor];
@@ -46,7 +56,18 @@
     }else{
         frame = CGRectMake(10, 100, 150, 150);
     }
-    [self transformView:_view1 duration:0.75 targetFrame:frame];
+    [self transformView:tap.view duration:0.75 targetFrame:frame];
+    _isZoom = !_isZoom;
+}
+-(void)scalingView2:(UITapGestureRecognizer *)tap{
+    NSLog(@"%s %@",__func__,[NSThread currentThread]);
+    CGRect frame ;
+    if (_isZoom == YES) {
+        frame = CGRectMake(10, 100, 300, 300);
+    }else{
+        frame = CGRectMake(10 + 150 + 10, 100, 150, 150);
+    }
+    [self transformView:tap.view duration:0.75 targetFrame:frame];
     _isZoom = !_isZoom;
 }
 // 做一个view的放大或者缩小的动画
