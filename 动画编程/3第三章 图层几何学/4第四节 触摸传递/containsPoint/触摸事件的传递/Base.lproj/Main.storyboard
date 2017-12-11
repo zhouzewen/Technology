@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mcY-3G-cTt">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXn-xl-Zne">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSV-nO-SjE">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cSV-nO-SjE" firstAttribute="top" secondItem="oXn-xl-Zne" secondAttribute="bottom" constant="20" id="1Oz-3K-Dfx"/>
+                            <constraint firstAttribute="trailing" secondItem="oXn-xl-Zne" secondAttribute="trailing" constant="10" id="4dR-nA-0cP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oXn-xl-Zne" secondAttribute="bottom" constant="20" id="5HC-zk-8Vi">
+                                <variation key="widthClass=compact" constant="300"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="cSV-nO-SjE" secondAttribute="trailing" constant="10" id="RPV-xx-cgR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cSV-nO-SjE" secondAttribute="bottom" constant="20" id="dtp-Nm-si1"/>
+                            <constraint firstItem="oXn-xl-Zne" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="ldS-Qg-F4a"/>
+                            <constraint firstItem="oXn-xl-Zne" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="omn-tZ-OJv"/>
+                            <constraint firstItem="cSV-nO-SjE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="wV3-Qa-4aM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="oXn-xl-Zne"/>
+                                <exclude reference="cSV-nO-SjE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="dtp-Nm-si1"/>
+                                <exclude reference="1Oz-3K-Dfx"/>
+                                <exclude reference="RPV-xx-cgR"/>
+                                <exclude reference="wV3-Qa-4aM"/>
+                                <exclude reference="4dR-nA-0cP"/>
+                                <exclude reference="omn-tZ-OJv"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="oXn-xl-Zne"/>
+                                <include reference="cSV-nO-SjE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="dtp-Nm-si1"/>
+                                <include reference="1Oz-3K-Dfx"/>
+                                <include reference="RPV-xx-cgR"/>
+                                <include reference="wV3-Qa-4aM"/>
+                                <include reference="4dR-nA-0cP"/>
+                                <include reference="omn-tZ-OJv"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="FxV-GZ-tyy"/>
+                    <connections>
+                        <outlet property="whiteView" destination="oXn-xl-Zne" id="Bs6-hw-Xgc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1222.5" y="418"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TlY-WR-7kz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mcY-3G-cTt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PCs-qx-ad6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ilc-Bd-dvp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n54-2B-phd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="418"/>
+        </scene>
+    </scenes>
+</document>

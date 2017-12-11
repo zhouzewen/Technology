@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vag-Pv-Lph">
+                                <rect key="frame" x="0.0" y="20" width="300" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHS-ay-L5S">
+                                        <rect key="frame" x="50" y="250" width="50" height="30"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="bJN-UJ-q91"/>
+                                            <constraint firstAttribute="width" constant="50" id="hYy-c6-nNi"/>
+                                        </constraints>
+                                        <state key="normal" title="Start"/>
+                                        <connections>
+                                            <action selector="startAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WxF-kx-p8i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za1-VQ-NSW">
+                                        <rect key="frame" x="150" y="250" width="50" height="30"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="HI2-JS-8e6"/>
+                                            <constraint firstAttribute="width" constant="50" id="fto-qm-bYg"/>
+                                        </constraints>
+                                        <state key="normal" title="Stop"/>
+                                        <connections>
+                                            <action selector="stopAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FSo-Gf-QnO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="2Ta-sB-eST"/>
+                                    <constraint firstAttribute="width" constant="300" id="8Jh-GG-aa8"/>
+                                    <constraint firstItem="rHS-ay-L5S" firstAttribute="top" secondItem="vag-Pv-Lph" secondAttribute="top" constant="250" id="IZe-vh-gce"/>
+                                    <constraint firstItem="za1-VQ-NSW" firstAttribute="top" secondItem="vag-Pv-Lph" secondAttribute="top" constant="250" id="KCM-R3-sae"/>
+                                    <constraint firstItem="rHS-ay-L5S" firstAttribute="leading" secondItem="vag-Pv-Lph" secondAttribute="leading" constant="50" id="RAp-Kd-y9K"/>
+                                    <constraint firstItem="za1-VQ-NSW" firstAttribute="leading" secondItem="rHS-ay-L5S" secondAttribute="trailing" constant="50" id="k9D-hb-RTV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vag-Pv-Lph" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FkR-Yu-xRt"/>
+                            <constraint firstItem="vag-Pv-Lph" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Lqb-0d-bIE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="vag-Pv-Lph" id="G4E-bv-0bR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

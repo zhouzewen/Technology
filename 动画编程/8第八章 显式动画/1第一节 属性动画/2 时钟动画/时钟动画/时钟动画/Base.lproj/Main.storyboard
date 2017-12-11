@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fB4-5I-io8">
+                                <rect key="frame" x="0.0" y="20" width="300" height="300"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HourHand" translatesAutoresizingMaskIntoConstraints="NO" id="jYO-D3-jiN">
+                                        <rect key="frame" x="113" y="81" width="30" height="94"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Sbo-sn-KrN"/>
+                                            <constraint firstAttribute="height" constant="94" id="bcY-zx-vxD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MinuteHand" translatesAutoresizingMaskIntoConstraints="NO" id="5a2-BP-ib7">
+                                        <rect key="frame" x="118" y="75" width="20" height="106"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="0dY-4C-OpN"/>
+                                            <constraint firstAttribute="height" constant="106" id="GzL-bL-cpt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondHand" translatesAutoresizingMaskIntoConstraints="NO" id="OsU-0W-pNA">
+                                        <rect key="frame" x="124" y="77" width="8" height="102"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="8" id="1N2-Qt-3RM"/>
+                                            <constraint firstAttribute="height" constant="102" id="VQC-bj-R3Y"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClockFace2" translatesAutoresizingMaskIntoConstraints="NO" id="jv3-ca-Y1i">
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="256" id="QWV-RA-sVK"/>
+                                            <constraint firstAttribute="height" constant="256" id="lnC-nT-kiF"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="OsU-0W-pNA" firstAttribute="top" secondItem="fB4-5I-io8" secondAttribute="top" constant="77" id="1j7-9J-2bi"/>
+                                    <constraint firstItem="jv3-ca-Y1i" firstAttribute="top" secondItem="fB4-5I-io8" secondAttribute="top" id="1p5-wL-kce"/>
+                                    <constraint firstItem="jv3-ca-Y1i" firstAttribute="leading" secondItem="fB4-5I-io8" secondAttribute="leading" id="3uP-QY-797"/>
+                                    <constraint firstItem="jYO-D3-jiN" firstAttribute="top" secondItem="fB4-5I-io8" secondAttribute="top" constant="81" id="86F-ed-bbe"/>
+                                    <constraint firstItem="5a2-BP-ib7" firstAttribute="leading" secondItem="fB4-5I-io8" secondAttribute="leading" constant="118" id="PNh-Da-ZWa"/>
+                                    <constraint firstAttribute="height" constant="300" id="WyO-X4-xJa"/>
+                                    <constraint firstItem="jYO-D3-jiN" firstAttribute="leading" secondItem="fB4-5I-io8" secondAttribute="leading" constant="113" id="g8h-wc-j6B"/>
+                                    <constraint firstItem="5a2-BP-ib7" firstAttribute="top" secondItem="fB4-5I-io8" secondAttribute="top" constant="75" id="hgn-2b-LpE"/>
+                                    <constraint firstItem="OsU-0W-pNA" firstAttribute="leading" secondItem="fB4-5I-io8" secondAttribute="leading" constant="124" id="iDU-Sp-IXo"/>
+                                    <constraint firstAttribute="width" constant="300" id="oq5-00-rK3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fB4-5I-io8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8oI-pH-QC1"/>
+                            <constraint firstItem="fB4-5I-io8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bgM-LT-Hso"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clockFace" destination="jv3-ca-Y1i" id="dSE-g1-Kqw"/>
+                        <outlet property="hourHand" destination="jYO-D3-jiN" id="N1D-Hv-FLc"/>
+                        <outlet property="minuteHand" destination="5a2-BP-ib7" id="2Kp-dY-d91"/>
+                        <outlet property="secondHand" destination="OsU-0W-pNA" id="KGo-WJ-PUe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ClockFace2" width="512" height="512"/>
+        <image name="HourHand" width="30" height="94"/>
+        <image name="MinuteHand" width="20" height="106"/>
+        <image name="SecondHand" width="8" height="102"/>
+    </resources>
+</document>

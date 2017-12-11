@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPy-G8-kgg">
+                                <rect key="frame" x="50" y="120" width="200" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CoS-ek-kGe">
+                                        <rect key="frame" x="40" y="40" width="120" height="120"/>
+                                        <color key="backgroundColor" red="0.31131380890052351" green="0.31131380890052351" blue="0.31131380890052351" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.63434636780104714" green="0.63434636780104714" blue="0.63434636780104714" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4aK-d2-dAD"/>
+                                    <constraint firstAttribute="width" constant="200" id="AjL-n3-NAH"/>
+                                    <constraint firstAttribute="bottom" secondItem="CoS-ek-kGe" secondAttribute="bottom" constant="40" id="Chu-jx-0Kf"/>
+                                    <constraint firstAttribute="trailing" secondItem="CoS-ek-kGe" secondAttribute="trailing" constant="40" id="mGe-I0-Jkp"/>
+                                    <constraint firstItem="CoS-ek-kGe" firstAttribute="top" secondItem="nPy-G8-kgg" secondAttribute="top" constant="40" id="sC3-hF-QwW"/>
+                                    <constraint firstItem="CoS-ek-kGe" firstAttribute="leading" secondItem="nPy-G8-kgg" secondAttribute="leading" constant="40" id="veg-jZ-0jA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nPy-G8-kgg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="jhD-kB-KsT"/>
+                            <constraint firstItem="nPy-G8-kgg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="rdg-FD-fR6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="innerView" destination="CoS-ek-kGe" id="lGK-Ci-s7Q"/>
+                        <outlet property="outerView" destination="nPy-G8-kgg" id="hcR-K9-50O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>

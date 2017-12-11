@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Doh-Zo-ktI" userLabel="leftLayerView">
+                                <rect key="frame" x="35" y="220" width="100" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="yL4-FS-ydz">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="yL4-FS-ydz" secondAttribute="trailing" id="88H-UG-U6R"/>
+                                    <constraint firstAttribute="height" constant="140" id="IZB-hl-3Ov"/>
+                                    <constraint firstAttribute="bottom" secondItem="yL4-FS-ydz" secondAttribute="bottom" id="NLx-Fw-lfz"/>
+                                    <constraint firstAttribute="width" constant="100" id="WAl-ES-7BS"/>
+                                    <constraint firstItem="yL4-FS-ydz" firstAttribute="top" secondItem="Doh-Zo-ktI" secondAttribute="top" id="b1S-T2-J9c"/>
+                                    <constraint firstItem="yL4-FS-ydz" firstAttribute="leading" secondItem="Doh-Zo-ktI" secondAttribute="leading" id="sEQ-O3-KS0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-Fj-8I2" userLabel="rightLayerView">
+                                <rect key="frame" x="185" y="220" width="100" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="JfV-jE-LtC">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="JfV-jE-LtC" firstAttribute="top" secondItem="Wjv-Fj-8I2" secondAttribute="top" id="3hL-Hj-QGK"/>
+                                    <constraint firstAttribute="trailing" secondItem="JfV-jE-LtC" secondAttribute="trailing" id="9oX-eM-gaq"/>
+                                    <constraint firstAttribute="width" constant="100" id="NXO-yZ-eAN"/>
+                                    <constraint firstAttribute="height" constant="140" id="P6g-GZ-Fhq"/>
+                                    <constraint firstAttribute="bottom" secondItem="JfV-jE-LtC" secondAttribute="bottom" id="Rt5-3Z-rYP"/>
+                                    <constraint firstItem="JfV-jE-LtC" firstAttribute="leading" secondItem="Wjv-Fj-8I2" secondAttribute="leading" id="eaw-2i-FUY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Doh-Zo-ktI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="6AV-W5-W2z"/>
+                            <constraint firstItem="Wjv-Fj-8I2" firstAttribute="leading" secondItem="Doh-Zo-ktI" secondAttribute="trailing" constant="50" id="7RJ-cw-eey"/>
+                            <constraint firstItem="Doh-Zo-ktI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="cYw-KU-msD"/>
+                            <constraint firstItem="Wjv-Fj-8I2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="zSo-g4-Lmp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftLayerView" destination="Doh-Zo-ktI" id="RxU-m4-WXH"/>
+                        <outlet property="rightLayerView" destination="Wjv-Fj-8I2" id="wOx-dl-FFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Snowman" width="200" height="280"/>
+    </resources>
+</document>

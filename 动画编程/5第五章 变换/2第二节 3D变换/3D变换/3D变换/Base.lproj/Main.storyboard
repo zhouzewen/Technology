@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IaZ-ED-0Dy" userLabel="layerView">
+                                <rect key="frame" x="100" y="230" width="100" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="GoU-7L-nDZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="GoU-7L-nDZ" secondAttribute="trailing" id="89r-aL-xvh"/>
+                                    <constraint firstItem="GoU-7L-nDZ" firstAttribute="leading" secondItem="IaZ-ED-0Dy" secondAttribute="leading" id="KqP-IB-nzD"/>
+                                    <constraint firstItem="GoU-7L-nDZ" firstAttribute="top" secondItem="IaZ-ED-0Dy" secondAttribute="top" id="Qkw-uq-DhR"/>
+                                    <constraint firstAttribute="height" constant="140" id="Uvd-Cj-Nzk"/>
+                                    <constraint firstAttribute="width" constant="100" id="a7K-QX-rcQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="GoU-7L-nDZ" secondAttribute="bottom" id="jKP-qX-bXx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSM-nh-wuv" userLabel="layerView2">
+                                <rect key="frame" x="100" y="380" width="100" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="4j6-j6-PMg">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="4j6-j6-PMg" secondAttribute="trailing" id="7uc-g8-bqk"/>
+                                    <constraint firstAttribute="bottom" secondItem="4j6-j6-PMg" secondAttribute="bottom" id="Bts-f0-Hg0"/>
+                                    <constraint firstItem="4j6-j6-PMg" firstAttribute="leading" secondItem="vSM-nh-wuv" secondAttribute="leading" id="YFu-Dg-i3y"/>
+                                    <constraint firstAttribute="width" constant="100" id="mch-6m-dlo"/>
+                                    <constraint firstItem="4j6-j6-PMg" firstAttribute="top" secondItem="vSM-nh-wuv" secondAttribute="top" id="osY-eZ-7FZ"/>
+                                    <constraint firstAttribute="height" constant="140" id="v78-uL-I5q"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxm-t5-7h1" userLabel="originView">
+                                <rect key="frame" x="100" y="80" width="100" height="140"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="BI4-eM-C1Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BI4-eM-C1Y" secondAttribute="trailing" id="CAE-Is-Gnk"/>
+                                    <constraint firstItem="BI4-eM-C1Y" firstAttribute="top" secondItem="gxm-t5-7h1" secondAttribute="top" id="HQs-jm-ica"/>
+                                    <constraint firstItem="BI4-eM-C1Y" firstAttribute="leading" secondItem="gxm-t5-7h1" secondAttribute="leading" id="UNU-5K-U4Z"/>
+                                    <constraint firstAttribute="width" constant="100" id="ckH-LQ-NEb"/>
+                                    <constraint firstAttribute="bottom" secondItem="BI4-eM-C1Y" secondAttribute="bottom" id="oKa-Na-FwL"/>
+                                    <constraint firstAttribute="height" constant="140" id="r9z-Dl-a2B"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IaZ-ED-0Dy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="210" id="1VJ-JF-e0X"/>
+                            <constraint firstItem="vSM-nh-wuv" firstAttribute="top" secondItem="IaZ-ED-0Dy" secondAttribute="bottom" constant="10" id="4Dy-cb-z4C"/>
+                            <constraint firstItem="gxm-t5-7h1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="8FV-dT-pYX"/>
+                            <constraint firstItem="vSM-nh-wuv" firstAttribute="top" secondItem="IaZ-ED-0Dy" secondAttribute="bottom" constant="10" id="B80-qT-8Mi"/>
+                            <constraint firstItem="IaZ-ED-0Dy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="BJY-wx-5SO"/>
+                            <constraint firstItem="gxm-t5-7h1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="80" id="jTB-4R-2Aj"/>
+                            <constraint firstItem="vSM-nh-wuv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="q02-Bc-0yh"/>
+                            <constraint firstItem="vSM-nh-wuv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="wlD-V4-WAN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B80-qT-8Mi"/>
+                                <exclude reference="q02-Bc-0yh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="layerView" destination="IaZ-ED-0Dy" id="DnF-yt-ufO"/>
+                        <outlet property="layerView2" destination="vSM-nh-wuv" id="Be3-lh-ITX"/>
+                        <outlet property="originView" destination="gxm-t5-7h1" id="zYn-Qy-gdz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="153"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Snowman" width="200" height="280"/>
+    </resources>
+</document>

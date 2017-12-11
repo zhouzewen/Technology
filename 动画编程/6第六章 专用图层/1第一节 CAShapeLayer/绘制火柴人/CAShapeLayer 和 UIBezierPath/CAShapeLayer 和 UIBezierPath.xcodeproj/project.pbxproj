@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B89B2A4C1D3711AD000BC64A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B89B2A4B1D3711AD000BC64A /* main.m */; };
+		B89B2A4F1D3711AD000BC64A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B89B2A4E1D3711AD000BC64A /* AppDelegate.m */; };
+		B89B2A521D3711AD000BC64A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89B2A511D3711AD000BC64A /* ViewController.m */; };
+		B89B2A551D3711AD000BC64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89B2A531D3711AD000BC64A /* Main.storyboard */; };
+		B89B2A571D3711AD000BC64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89B2A561D3711AD000BC64A /* Assets.xcassets */; };
+		B89B2A5A1D3711AD000BC64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89B2A581D3711AD000BC64A /* LaunchScreen.storyboard */; };
+		B89B2A621D3711D9000BC64A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89B2A611D3711D9000BC64A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B89B2A471D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAShapeLayer 和 UIBezierPath.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89B2A4B1D3711AD000BC64A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B89B2A4D1D3711AD000BC64A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B89B2A4E1D3711AD000BC64A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B89B2A501D3711AD000BC64A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B89B2A511D3711AD000BC64A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B89B2A541D3711AD000BC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B89B2A561D3711AD000BC64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B89B2A591D3711AD000BC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B89B2A5B1D3711AD000BC64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89B2A611D3711D9000BC64A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B89B2A441D3711AD000BC64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89B2A621D3711D9000BC64A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B89B2A3E1D3711AD000BC64A = {
+			isa = PBXGroup;
+			children = (
+				B89B2A611D3711D9000BC64A /* QuartzCore.framework */,
+				B89B2A491D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath */,
+				B89B2A481D3711AD000BC64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B89B2A481D3711AD000BC64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89B2A471D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B89B2A491D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				B89B2A4D1D3711AD000BC64A /* AppDelegate.h */,
+				B89B2A4E1D3711AD000BC64A /* AppDelegate.m */,
+				B89B2A501D3711AD000BC64A /* ViewController.h */,
+				B89B2A511D3711AD000BC64A /* ViewController.m */,
+				B89B2A531D3711AD000BC64A /* Main.storyboard */,
+				B89B2A561D3711AD000BC64A /* Assets.xcassets */,
+				B89B2A581D3711AD000BC64A /* LaunchScreen.storyboard */,
+				B89B2A5B1D3711AD000BC64A /* Info.plist */,
+				B89B2A4A1D3711AD000BC64A /* Supporting Files */,
+			);
+			path = "CAShapeLayer 和 UIBezierPath";
+			sourceTree = "<group>";
+		};
+		B89B2A4A1D3711AD000BC64A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B89B2A4B1D3711AD000BC64A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B89B2A461D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89B2A5E1D3711AD000BC64A /* Build configuration list for PBXNativeTarget "CAShapeLayer 和 UIBezierPath" */;
+			buildPhases = (
+				B89B2A431D3711AD000BC64A /* Sources */,
+				B89B2A441D3711AD000BC64A /* Frameworks */,
+				B89B2A451D3711AD000BC64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAShapeLayer 和 UIBezierPath";
+			productName = "CAShapeLayer 和 UIBezierPath";
+			productReference = B89B2A471D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B89B2A3F1D3711AD000BC64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "fox/周泽文";
+				TargetAttributes = {
+					B89B2A461D3711AD000BC64A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B89B2A421D3711AD000BC64A /* Build configuration list for PBXProject "CAShapeLayer 和 UIBezierPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B89B2A3E1D3711AD000BC64A;
+			productRefGroup = B89B2A481D3711AD000BC64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B89B2A461D3711AD000BC64A /* CAShapeLayer 和 UIBezierPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B89B2A451D3711AD000BC64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89B2A5A1D3711AD000BC64A /* LaunchScreen.storyboard in Resources */,
+				B89B2A571D3711AD000BC64A /* Assets.xcassets in Resources */,
+				B89B2A551D3711AD000BC64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B89B2A431D3711AD000BC64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89B2A521D3711AD000BC64A /* ViewController.m in Sources */,
+				B89B2A4F1D3711AD000BC64A /* AppDelegate.m in Sources */,
+				B89B2A4C1D3711AD000BC64A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B89B2A531D3711AD000BC64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89B2A541D3711AD000BC64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B89B2A581D3711AD000BC64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89B2A591D3711AD000BC64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B89B2A5C1D3711AD000BC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89B2A5D1D3711AD000BC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B89B2A5F1D3711AD000BC64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAShapeLayer 和 UIBezierPath/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CAShapeLayer---UIBezierPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B89B2A601D3711AD000BC64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAShapeLayer 和 UIBezierPath/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CAShapeLayer---UIBezierPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B89B2A421D3711AD000BC64A /* Build configuration list for PBXProject "CAShapeLayer 和 UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89B2A5C1D3711AD000BC64A /* Debug */,
+				B89B2A5D1D3711AD000BC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89B2A5E1D3711AD000BC64A /* Build configuration list for PBXNativeTarget "CAShapeLayer 和 UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89B2A5F1D3711AD000BC64A /* Debug */,
+				B89B2A601D3711AD000BC64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B89B2A3F1D3711AD000BC64A /* Project object */;
+}

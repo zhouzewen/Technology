@@ -1,0 +1,18 @@
+
+/* Class = "UITextView"; text = "Loaded by the second view\ncontroller — an instance of SecondViewController — specified in the app delegate."; ObjectID = "3pU-t8-Bac"; */
+"3pU-t8-Bac.text" = "Loaded by the second view\ncontroller — an instance of SecondViewController — specified in the app delegate.";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "ahW-8s-RgT"; */
+"ahW-8s-RgT.title" = "Item 1";
+
+/* Class = "UILabel"; text = "First View"; ObjectID = "n1V-eD-OJa"; */
+"n1V-eD-OJa.text" = "First View";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "tV6-kw-Ybw"; */
+"tV6-kw-Ybw.text" = "Second View";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "ubS-lm-CCU"; */
+"ubS-lm-CCU.title" = "Item 2";
+
+/* Class = "UITextView"; text = "Loaded by the first view\ncontroller — an instance of FirstViewController — specified in the app delegate."; ObjectID = "vjP-38-fn9"; */
+"vjP-38-fn9.text" = "Loaded by the first view\ncontroller — an instance of FirstViewController — specified in the app delegate.";
