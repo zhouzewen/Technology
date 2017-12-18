@@ -43,6 +43,12 @@
 		646067BD1FB5290C004E71B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646067BB1FB5290C004E71B5 /* LaunchScreen.storyboard */; };
 		646067C01FB5290C004E71B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646067BF1FB5290C004E71B5 /* main.m */; };
 		646067C91FB53A5D004E71B5 /* UIButton+TouchOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 646067C81FB53A5D004E71B5 /* UIButton+TouchOnce.m */; };
+		64B4A25B1FDAC3AA00B6C1B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4A25A1FDAC3AA00B6C1B4 /* AppDelegate.m */; };
+		64B4A25E1FDAC3AA00B6C1B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4A25D1FDAC3AA00B6C1B4 /* ViewController.m */; };
+		64B4A2611FDAC3AA00B6C1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B4A25F1FDAC3AA00B6C1B4 /* Main.storyboard */; };
+		64B4A2631FDAC3AA00B6C1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B4A2621FDAC3AA00B6C1B4 /* Assets.xcassets */; };
+		64B4A2661FDAC3AA00B6C1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B4A2641FDAC3AA00B6C1B4 /* LaunchScreen.storyboard */; };
+		64B4A2691FDAC3AA00B6C1B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4A2681FDAC3AA00B6C1B4 /* main.m */; };
 		64BBCBFA1FB06259005884E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBCBF91FB06259005884E9 /* AppDelegate.m */; };
 		64BBCBFD1FB06259005884E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBCBFC1FB06259005884E9 /* ViewController.m */; };
 		64BBCC001FB06259005884E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BBCBFE1FB06259005884E9 /* Main.storyboard */; };
@@ -159,6 +165,16 @@
 		646067BF1FB5290C004E71B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		646067C71FB53A5D004E71B5 /* UIButton+TouchOnce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TouchOnce.h"; sourceTree = "<group>"; };
 		646067C81FB53A5D004E71B5 /* UIButton+TouchOnce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TouchOnce.m"; sourceTree = "<group>"; };
+		64B4A2571FDAC3A900B6C1B4 /* CycleStyles(循环的种类).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CycleStyles(循环的种类).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B4A2591FDAC3AA00B6C1B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64B4A25A1FDAC3AA00B6C1B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64B4A25C1FDAC3AA00B6C1B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64B4A25D1FDAC3AA00B6C1B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64B4A2601FDAC3AA00B6C1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64B4A2621FDAC3AA00B6C1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64B4A2651FDAC3AA00B6C1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64B4A2671FDAC3AA00B6C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B4A2681FDAC3AA00B6C1B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64BBCBF61FB06259005884E9 /* MessageForwarding(消息转发).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MessageForwarding(消息转发).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BBCBF81FB06259005884E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64BBCBF91FB06259005884E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -279,6 +295,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		646067AB1FB5290C004E71B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4A2541FDAC3A900B6C1B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,6 +452,22 @@
 			path = "TouchOnceButton(按钮防重复点击)";
 			sourceTree = "<group>";
 		};
+		64B4A2581FDAC3AA00B6C1B4 /* CycleStyles(循环的种类) */ = {
+			isa = PBXGroup;
+			children = (
+				64B4A2591FDAC3AA00B6C1B4 /* AppDelegate.h */,
+				64B4A25A1FDAC3AA00B6C1B4 /* AppDelegate.m */,
+				64B4A25C1FDAC3AA00B6C1B4 /* ViewController.h */,
+				64B4A25D1FDAC3AA00B6C1B4 /* ViewController.m */,
+				64B4A25F1FDAC3AA00B6C1B4 /* Main.storyboard */,
+				64B4A2621FDAC3AA00B6C1B4 /* Assets.xcassets */,
+				64B4A2641FDAC3AA00B6C1B4 /* LaunchScreen.storyboard */,
+				64B4A2671FDAC3AA00B6C1B4 /* Info.plist */,
+				64B4A2681FDAC3AA00B6C1B4 /* main.m */,
+			);
+			path = "CycleStyles(循环的种类)";
+			sourceTree = "<group>";
+		};
 		64BBCBF71FB06259005884E9 /* MessageForwarding(消息转发) */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +501,7 @@
 				6442E93D1FCC480600F0E082 /* PDFSaveToPhotosAlbum */,
 				6442E9871FCC4B5B00F0E082 /* BlockRC(block循环引用) */,
 				640DE2081FCEEABF00C1083F /* NotificationStandard(通知规范) */,
+				64B4A2581FDAC3AA00B6C1B4 /* CycleStyles(循环的种类) */,
 				64DE27C01FAD67A300BE0315 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -481,6 +521,7 @@
 				6442E93C1FCC480600F0E082 /* PDFSaveToPhotosAlbum.app */,
 				6442E9861FCC4B5B00F0E082 /* BlockRC(block循环引用).app */,
 				640DE2071FCEEABF00C1083F /* NotificationStandard(通知规范).app */,
+				64B4A2571FDAC3A900B6C1B4 /* CycleStyles(循环的种类).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -685,6 +726,23 @@
 			productReference = 646067AE1FB5290C004E71B5 /* TouchOnceButton(按钮防重复点击).app */;
 			productType = "com.apple.product-type.application";
 		};
+		64B4A2561FDAC3A900B6C1B4 /* CycleStyles(循环的种类) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B4A26A1FDAC3AA00B6C1B4 /* Build configuration list for PBXNativeTarget "CycleStyles(循环的种类)" */;
+			buildPhases = (
+				64B4A2531FDAC3A900B6C1B4 /* Sources */,
+				64B4A2541FDAC3A900B6C1B4 /* Frameworks */,
+				64B4A2551FDAC3A900B6C1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CycleStyles(循环的种类)";
+			productName = "CycleStyles(循环的种类)";
+			productReference = 64B4A2571FDAC3A900B6C1B4 /* CycleStyles(循环的种类).app */;
+			productType = "com.apple.product-type.application";
+		};
 		64BBCBF51FB06259005884E9 /* MessageForwarding(消息转发) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64BBCC0B1FB0625A005884E9 /* Build configuration list for PBXNativeTarget "MessageForwarding(消息转发)" */;
@@ -833,6 +891,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					64B4A2561FDAC3A900B6C1B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					64BBCBF51FB06259005884E9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -888,6 +950,7 @@
 				6442E93B1FCC480600F0E082 /* PDFSaveToPhotosAlbum */,
 				6442E9851FCC4B5B00F0E082 /* BlockRC(block循环引用) */,
 				640DE2061FCEEABF00C1083F /* NotificationStandard(通知规范) */,
+				64B4A2561FDAC3A900B6C1B4 /* CycleStyles(循环的种类) */,
 			);
 		};
 /* End PBXProject section */
@@ -940,6 +1003,16 @@
 				646067BD1FB5290C004E71B5 /* LaunchScreen.storyboard in Resources */,
 				646067BA1FB5290C004E71B5 /* Assets.xcassets in Resources */,
 				646067B81FB5290C004E71B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4A2551FDAC3A900B6C1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B4A2661FDAC3AA00B6C1B4 /* LaunchScreen.storyboard in Resources */,
+				64B4A2631FDAC3AA00B6C1B4 /* Assets.xcassets in Resources */,
+				64B4A2611FDAC3AA00B6C1B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,6 +1142,16 @@
 				646067B51FB5290C004E71B5 /* ViewController.m in Sources */,
 				646067C01FB5290C004E71B5 /* main.m in Sources */,
 				646067B21FB5290C004E71B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4A2531FDAC3A900B6C1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B4A25E1FDAC3AA00B6C1B4 /* ViewController.m in Sources */,
+				64B4A2691FDAC3AA00B6C1B4 /* main.m in Sources */,
+				64B4A25B1FDAC3AA00B6C1B4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1230,6 +1313,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				646067BC1FB5290C004E71B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64B4A25F1FDAC3AA00B6C1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B4A2601FDAC3AA00B6C1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64B4A2641FDAC3AA00B6C1B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B4A2651FDAC3AA00B6C1B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1474,6 +1573,34 @@
 				INFOPLIST_FILE = "TouchOnceButton(按钮防重复点击)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.TouchOnceButton---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64B4A26B1FDAC3AA00B6C1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CycleStyles(循环的种类)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CycleStyles-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B4A26C1FDAC3AA00B6C1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CycleStyles(循环的种类)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CycleStyles-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1809,6 +1936,15 @@
 			buildConfigurations = (
 				646067C11FB5290C004E71B5 /* Debug */,
 				646067C21FB5290C004E71B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B4A26A1FDAC3AA00B6C1B4 /* Build configuration list for PBXNativeTarget "CycleStyles(循环的种类)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B4A26B1FDAC3AA00B6C1B4 /* Debug */,
+				64B4A26C1FDAC3AA00B6C1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

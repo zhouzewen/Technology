@@ -14,6 +14,15 @@
 		6404017D1FABF0D100C1F540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6404017B1FABF0D100C1F540 /* LaunchScreen.storyboard */; };
 		640401801FABF0D100C1F540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6404017F1FABF0D100C1F540 /* main.m */; };
 		64135BD61F99E90F00B963B6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64135BD51F99E90F00B963B6 /* TestViewController.m */; };
+		64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1B1FDE5FFE00950EDA /* AppDelegate.m */; };
+		64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1E1FDE5FFE00950EDA /* ViewController.m */; };
+		64287D221FDE5FFE00950EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D201FDE5FFE00950EDA /* Main.storyboard */; };
+		64287D241FDE5FFE00950EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64287D231FDE5FFE00950EDA /* Assets.xcassets */; };
+		64287D271FDE5FFE00950EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D251FDE5FFE00950EDA /* LaunchScreen.storyboard */; };
+		64287D2A1FDE5FFE00950EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D291FDE5FFE00950EDA /* main.m */; };
+		64287D331FDE62BD00950EDA /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D321FDE62BD00950EDA /* HttpHelper.m */; };
+		64287D3C1FDF829100950EDA /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3B1FDF829100950EDA /* DES3Util.m */; };
+		64287D3F1FDFB2DB00950EDA /* NSString+ZZW_String.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */; };
 		6435354D1F7CE93000FC8982 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435354C1F7CE93000FC8982 /* Person.m */; };
 		6442E95F1FCC4A1700F0E082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E95E1FCC4A1700F0E082 /* AppDelegate.m */; };
 		6442E9621FCC4A1700F0E082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9611FCC4A1700F0E082 /* ViewController.m */; };
@@ -125,6 +134,22 @@
 		6404017F1FABF0D100C1F540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64135BD41F99E90F00B963B6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		64135BD51F99E90F00B963B6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth(第三方登录).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64287D1A1FDE5FFE00950EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64287D1B1FDE5FFE00950EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64287D1D1FDE5FFE00950EDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64287D1E1FDE5FFE00950EDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64287D211FDE5FFE00950EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64287D231FDE5FFE00950EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64287D261FDE5FFE00950EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64287D281FDE5FFE00950EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64287D291FDE5FFE00950EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64287D311FDE62BD00950EDA /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
+		64287D321FDE62BD00950EDA /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
+		64287D3A1FDF829100950EDA /* DES3Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		64287D3B1FDF829100950EDA /* DES3Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		64287D3D1FDFB2DB00950EDA /* NSString+ZZW_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZW_String.h"; sourceTree = "<group>"; };
+		64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZW_String.m"; sourceTree = "<group>"; };
 		6435354B1F7CE93000FC8982 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		6435354C1F7CE93000FC8982 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6442E95B1FCC4A1700F0E082 /* TouchTable(触点判断).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TouchTable(触点判断).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +274,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64287D151FDE5FFE00950EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6442E9581FCC4A1700F0E082 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +370,28 @@
 			path = "BackgroundTime(申请后台时间)";
 			sourceTree = "<group>";
 		};
+		64287D191FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
+			isa = PBXGroup;
+			children = (
+				64287D1A1FDE5FFE00950EDA /* AppDelegate.h */,
+				64287D1B1FDE5FFE00950EDA /* AppDelegate.m */,
+				64287D1D1FDE5FFE00950EDA /* ViewController.h */,
+				64287D1E1FDE5FFE00950EDA /* ViewController.m */,
+				64287D311FDE62BD00950EDA /* HttpHelper.h */,
+				64287D321FDE62BD00950EDA /* HttpHelper.m */,
+				64287D3A1FDF829100950EDA /* DES3Util.h */,
+				64287D3B1FDF829100950EDA /* DES3Util.m */,
+				64287D3D1FDFB2DB00950EDA /* NSString+ZZW_String.h */,
+				64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */,
+				64287D201FDE5FFE00950EDA /* Main.storyboard */,
+				64287D231FDE5FFE00950EDA /* Assets.xcassets */,
+				64287D251FDE5FFE00950EDA /* LaunchScreen.storyboard */,
+				64287D281FDE5FFE00950EDA /* Info.plist */,
+				64287D291FDE5FFE00950EDA /* main.m */,
+			);
+			path = "OAuth(第三方登录)";
+			sourceTree = "<group>";
+		};
 		6442E95C1FCC4A1700F0E082 /* TouchTable(触点判断) */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,6 +469,7 @@
 				6442E95C1FCC4A1700F0E082 /* TouchTable(触点判断) */,
 				6442E9A41FCC4CAF00F0E082 /* ViewOrigin(导航栏子视图起点) */,
 				6442E9C61FCCF0D800F0E082 /* ScalingAnimation(缩放动画) */,
+				64287D191FDE5FFE00950EDA /* OAuth(第三方登录) */,
 				6487E71F1F74AB5C003934C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -433,6 +488,7 @@
 				6442E95B1FCC4A1700F0E082 /* TouchTable(触点判断).app */,
 				6442E9A31FCC4CAF00F0E082 /* ViewOrigin(导航栏子视图起点).app */,
 				6442E9C51FCCF0D800F0E082 /* ScalingAnimation(缩放动画).app */,
+				64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -591,6 +647,23 @@
 			name = "BackgroundTime(申请后台时间)";
 			productName = "BackgroundTime(申请后台时间)";
 			productReference = 6404016E1FABF0D100C1F540 /* BackgroundTime(申请后台时间).app */;
+			productType = "com.apple.product-type.application";
+		};
+		64287D171FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64287D2F1FDE5FFF00950EDA /* Build configuration list for PBXNativeTarget "OAuth(第三方登录)" */;
+			buildPhases = (
+				64287D141FDE5FFE00950EDA /* Sources */,
+				64287D151FDE5FFE00950EDA /* Frameworks */,
+				64287D161FDE5FFE00950EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OAuth(第三方登录)";
+			productName = "OAuth(第三方登录)";
+			productReference = 64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */;
 			productType = "com.apple.product-type.application";
 		};
 		6442E95A1FCC4A1700F0E082 /* TouchTable(触点判断) */ = {
@@ -777,6 +850,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					64287D171FDE5FFE00950EDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					6442E95A1FCC4A1700F0E082 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -855,6 +932,7 @@
 				6442E95A1FCC4A1700F0E082 /* TouchTable(触点判断) */,
 				6442E9A21FCC4CAF00F0E082 /* ViewOrigin(导航栏子视图起点) */,
 				6442E9C41FCCF0D800F0E082 /* ScalingAnimation(缩放动画) */,
+				64287D171FDE5FFE00950EDA /* OAuth(第三方登录) */,
 			);
 		};
 /* End PBXProject section */
@@ -884,6 +962,16 @@
 				6404017D1FABF0D100C1F540 /* LaunchScreen.storyboard in Resources */,
 				6404017A1FABF0D100C1F540 /* Assets.xcassets in Resources */,
 				640401781FABF0D100C1F540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64287D161FDE5FFE00950EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64287D271FDE5FFE00950EDA /* LaunchScreen.storyboard in Resources */,
+				64287D241FDE5FFE00950EDA /* Assets.xcassets in Resources */,
+				64287D221FDE5FFE00950EDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,6 +1082,19 @@
 				640401751FABF0D100C1F540 /* ViewController.m in Sources */,
 				640401801FABF0D100C1F540 /* main.m in Sources */,
 				640401721FABF0D100C1F540 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64287D141FDE5FFE00950EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */,
+				64287D2A1FDE5FFE00950EDA /* main.m in Sources */,
+				64287D3C1FDF829100950EDA /* DES3Util.m in Sources */,
+				64287D3F1FDFB2DB00950EDA /* NSString+ZZW_String.m in Sources */,
+				64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */,
+				64287D331FDE62BD00950EDA /* HttpHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,6 +1221,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6404017C1FABF0D100C1F540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64287D201FDE5FFE00950EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64287D211FDE5FFE00950EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64287D251FDE5FFE00950EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64287D261FDE5FFE00950EDA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1295,6 +1412,36 @@
 				INFOPLIST_FILE = "BackgroundTime(申请后台时间)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.BackgroundTime--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64287D2B1FDE5FFF00950EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "OAuth(第三方登录)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulianwang1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64287D2C1FDE5FFF00950EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "OAuth(第三方登录)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulianwang1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1716,6 +1863,15 @@
 			buildConfigurations = (
 				640401821FABF0D100C1F540 /* Debug */,
 				640401831FABF0D100C1F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64287D2F1FDE5FFF00950EDA /* Build configuration list for PBXNativeTarget "OAuth(第三方登录)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64287D2B1FDE5FFF00950EDA /* Debug */,
+				64287D2C1FDE5FFF00950EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
