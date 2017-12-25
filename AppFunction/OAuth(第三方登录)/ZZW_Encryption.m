@@ -1,23 +1,44 @@
 //
-//  DES3Util.m
+//  ZZW_Encryption.m
 //  OAuth(第三方登录)
 //
 //  Created by 周泽文 on 2017/12/12.
 //  Copyright © 2017年 zhouzewen. All rights reserved.
 //
 
-#import "DES3Util.h"
-#import <CommonCrypto/CommonCryptor.h>
+#import "ZZW_Encryption.h"
+#import <CommonCrypto/CommonCryptor.h>// AES
+#import <CommonCrypto/CommonDigest.h> //md5
+
 #define gkey @"HL67LZ3M92P7DKWELY9X92LFNGD9TN77"
 #define gIV @"R67FYRX8W57NYAFB"
-@implementation DES3Util
+@implementation ZZW_Encryption
+// 对一个字符串中MD5加密
++(NSString *)md5:(NSString *)str{
+    const char * cStr = [str UTF8String];
+    unsigned char digest[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(cStr, (unsigned int)strlen(cStr), digest);
+    
+    NSMutableString *outPut = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH*2];
+    for (int i = 0; i < CC_MD5_DIGEST_LENGTH; i++) {
+        [outPut appendFormat:@"%02x",digest[i]];
+    }
+    return outPut;
+}
 +(NSString *)AES128Encrypt:(NSString *)text{
     NSLog(@"%lu",text.length);
     
+    /**
+     key是32位长度的，所以使用kCCKeySizeAES256
+     如果KEY是16位的则使用kCCKeySizeAES128
+     */
     char keyPtr[kCCKeySizeAES256 + 1];
     memset(keyPtr,0,sizeof(keyPtr));
     [gkey getCString:keyPtr maxLength:sizeof(keyPtr) encoding:NSUTF8StringEncoding];
     
+    /**
+     IV是16位的
+     */
     char ivPtr[kCCBlockSizeAES128 +1];
     memset(ivPtr, 0, sizeof(ivPtr));
     [gIV getCString:ivPtr maxLength:sizeof(ivPtr) encoding:NSUTF8StringEncoding];

@@ -20,8 +20,8 @@
 		64287D241FDE5FFE00950EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64287D231FDE5FFE00950EDA /* Assets.xcassets */; };
 		64287D271FDE5FFE00950EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D251FDE5FFE00950EDA /* LaunchScreen.storyboard */; };
 		64287D2A1FDE5FFE00950EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D291FDE5FFE00950EDA /* main.m */; };
-		64287D331FDE62BD00950EDA /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D321FDE62BD00950EDA /* HttpHelper.m */; };
-		64287D3C1FDF829100950EDA /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3B1FDF829100950EDA /* DES3Util.m */; };
+		64287D331FDE62BD00950EDA /* ZZW_HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D321FDE62BD00950EDA /* ZZW_HttpHelper.m */; };
+		64287D3C1FDF829100950EDA /* ZZW_Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3B1FDF829100950EDA /* ZZW_Encryption.m */; };
 		64287D3F1FDFB2DB00950EDA /* NSString+ZZW_String.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */; };
 		6435354D1F7CE93000FC8982 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435354C1F7CE93000FC8982 /* Person.m */; };
 		6442E95F1FCC4A1700F0E082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E95E1FCC4A1700F0E082 /* AppDelegate.m */; };
@@ -62,6 +62,8 @@
 		6487E74A1F74ABA2003934C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6487E7481F74ABA2003934C2 /* LaunchScreen.storyboard */; };
 		6487E74D1F74ABA2003934C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E74C1F74ABA2003934C2 /* main.m */; };
 		6487E7531F74AE79003934C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6487E7551F74AE79003934C2 /* Localizable.strings */; };
+		64B483F31FE90E87008445B3 /* ZZW_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B483F21FE90E87008445B3 /* ZZW_Tool.m */; };
+		64B483F61FE91191008445B3 /* ZZW_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B483F51FE91191008445B3 /* ZZW_Model.m */; };
 		64BBCBD31FB05E5F005884E9 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBCBD21FB05E5F005884E9 /* TestClass.m */; };
 		64BBCBDC1FB05F5B005884E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBCBDB1FB05F5B005884E9 /* AppDelegate.m */; };
 		64BBCBDF1FB05F5B005884E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBCBDE1FB05F5B005884E9 /* ViewController.m */; };
@@ -144,10 +146,10 @@
 		64287D261FDE5FFE00950EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64287D281FDE5FFE00950EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64287D291FDE5FFE00950EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64287D311FDE62BD00950EDA /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
-		64287D321FDE62BD00950EDA /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
-		64287D3A1FDF829100950EDA /* DES3Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
-		64287D3B1FDF829100950EDA /* DES3Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		64287D311FDE62BD00950EDA /* ZZW_HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZW_HttpHelper.h; sourceTree = "<group>"; };
+		64287D321FDE62BD00950EDA /* ZZW_HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZW_HttpHelper.m; sourceTree = "<group>"; };
+		64287D3A1FDF829100950EDA /* ZZW_Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_Encryption.h; sourceTree = "<group>"; };
+		64287D3B1FDF829100950EDA /* ZZW_Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_Encryption.m; sourceTree = "<group>"; };
 		64287D3D1FDFB2DB00950EDA /* NSString+ZZW_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZW_String.h"; sourceTree = "<group>"; };
 		64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZW_String.m"; sourceTree = "<group>"; };
 		6435354B1F7CE93000FC8982 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -220,6 +222,10 @@
 		6487E7561F74AE7D003934C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6487E7571F74AE98003934C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6487E7581F74AEA2003934C2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		64B483F11FE90E87008445B3 /* ZZW_Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_Tool.h; sourceTree = "<group>"; };
+		64B483F21FE90E87008445B3 /* ZZW_Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_Tool.m; sourceTree = "<group>"; };
+		64B483F41FE91191008445B3 /* ZZW_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_Model.h; sourceTree = "<group>"; };
+		64B483F51FE91191008445B3 /* ZZW_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_Model.m; sourceTree = "<group>"; };
 		64BBCBD11FB05E5F005884E9 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		64BBCBD21FB05E5F005884E9 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		64BBCBD81FB05F5B005884E9 /* StretchImage(拉伸图片).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StretchImage(拉伸图片).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -377,12 +383,16 @@
 				64287D1B1FDE5FFE00950EDA /* AppDelegate.m */,
 				64287D1D1FDE5FFE00950EDA /* ViewController.h */,
 				64287D1E1FDE5FFE00950EDA /* ViewController.m */,
-				64287D311FDE62BD00950EDA /* HttpHelper.h */,
-				64287D321FDE62BD00950EDA /* HttpHelper.m */,
-				64287D3A1FDF829100950EDA /* DES3Util.h */,
-				64287D3B1FDF829100950EDA /* DES3Util.m */,
+				64287D311FDE62BD00950EDA /* ZZW_HttpHelper.h */,
+				64287D321FDE62BD00950EDA /* ZZW_HttpHelper.m */,
+				64287D3A1FDF829100950EDA /* ZZW_Encryption.h */,
+				64287D3B1FDF829100950EDA /* ZZW_Encryption.m */,
 				64287D3D1FDFB2DB00950EDA /* NSString+ZZW_String.h */,
 				64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */,
+				64B483F11FE90E87008445B3 /* ZZW_Tool.h */,
+				64B483F21FE90E87008445B3 /* ZZW_Tool.m */,
+				64B483F41FE91191008445B3 /* ZZW_Model.h */,
+				64B483F51FE91191008445B3 /* ZZW_Model.m */,
 				64287D201FDE5FFE00950EDA /* Main.storyboard */,
 				64287D231FDE5FFE00950EDA /* Assets.xcassets */,
 				64287D251FDE5FFE00950EDA /* LaunchScreen.storyboard */,
@@ -1090,11 +1100,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */,
+				64B483F61FE91191008445B3 /* ZZW_Model.m in Sources */,
 				64287D2A1FDE5FFE00950EDA /* main.m in Sources */,
-				64287D3C1FDF829100950EDA /* DES3Util.m in Sources */,
+				64287D3C1FDF829100950EDA /* ZZW_Encryption.m in Sources */,
 				64287D3F1FDFB2DB00950EDA /* NSString+ZZW_String.m in Sources */,
 				64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */,
-				64287D331FDE62BD00950EDA /* HttpHelper.m in Sources */,
+				64B483F31FE90E87008445B3 /* ZZW_Tool.m in Sources */,
+				64287D331FDE62BD00950EDA /* ZZW_HttpHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
