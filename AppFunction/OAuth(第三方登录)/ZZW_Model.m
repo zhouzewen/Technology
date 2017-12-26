@@ -105,7 +105,12 @@
     
     // 参数3 redirect_uri  明文内容为 ： http://interface.ite.newflnet.com/IHome/redirect
     NSString * redirect_uri = redirect_uri_value;
+    NSLog(@"redirect_uri : %@",redirect_uri);
+    
     redirect_uri = [ZZW_Encryption AES128Encrypt:redirect_uri]; // 先用AES加密,然后转成base64字符串
+    NSLog(@"redirect_uri encrypt : %@",redirect_uri);
+    NSString *decrypt = [ZZW_Encryption AES128Decrypt:redirect_uri];
+    NSLog(@"redirect_uri decrypt : %@",decrypt);
     redirect_uri = [redirect_uri urlencode]; //将字符串中的 =、/等符号转换为 URL Encoded Characters，这样发送网络请求的时候才能被服务器识别
     
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];

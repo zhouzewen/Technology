@@ -16,6 +16,10 @@
     NSString *_access_token;
     ZZW_HttpHelper *_helper;
 }
+@property(nonatomic,strong)UILabel *codeLabel;
+@property(nonatomic,strong)UILabel *tokenLabel;
+@property(nonatomic,strong)UIButton *requestTokenBtn;
+@property(nonatomic,strong)UIButton *sendRequestBtn;
 
 @end
 
@@ -26,37 +30,71 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
     
-//    [self testHttps];
-    [self getCode];
+    [self getServerTime];
     
+//    [self testHttps];
+    
+    [self getCode];
+    _codeLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
+    _codeLabel.text = @"请求code中";
+    _codeLabel.textColor = [UIColor blackColor];
+    [self.view addSubview:_codeLabel];
+    
+    _requestTokenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    _requestTokenBtn.frame = CGRectMake(20 + 200, 100, 100, 50);
+    [_requestTokenBtn setTitle:@"请求token" forState:UIControlStateNormal];
+    [_requestTokenBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [_requestTokenBtn addTarget:self action:@selector(getToken) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_requestTokenBtn];
+    
+    _tokenLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 200, 200, 50)];
+    _tokenLabel.text = @"请求token中";
+    _tokenLabel.textColor = [UIColor blackColor];
+    [self.view addSubview:_tokenLabel];
+    
+    _sendRequestBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    _sendRequestBtn.frame = CGRectMake(20 + 200, 200, 100, 50);
+    [_sendRequestBtn setTitle:@"发送网络请求" forState:UIControlStateNormal];
+    [_sendRequestBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [_sendRequestBtn addTarget:self action:@selector(getNewInterfaceAndSendGetRequest) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_sendRequestBtn];
 }
 
 #pragma mark - ZZW_HttpHelperDelegate
 -(void)httpHelper:(ZZW_HttpHelper *)helper responseInfo:(NSDictionary *)infoDic{
     static int  count = 0;
+    NSDate *date = [NSDate dateWithTimeIntervalSinceNow:0];
+    NSTimeInterval time = [date timeIntervalSince1970];
+    time *= 1000;
     NSLog(@"%d dic : %@",count,infoDic);
     if (count == 0) {
         // 1 保存获取到的code,并请求token
         if (![infoDic[@"data"] isEqualToString:@""]){
             _code = infoDic[@"data"];
+            _codeLabel.text = _code;
             [[NSUserDefaults standardUserDefaults] setObject:infoDic[@"data"] forKey:@"code"];
             [[NSUserDefaults standardUserDefaults] synchronize];
-            [self getToken];
         }
         
     }else if (count == 1) {
         // 2 保存获取的token，根据token生成新的接口请求数据
         if (![infoDic[@"access_token"] isEqualToString:@""]){
             _access_token = infoDic[@"access_token"];
+            _tokenLabel.text = _access_token;
             [[NSUserDefaults standardUserDefaults] setObject:infoDic[@"access_token"] forKey:@"access_token"];
             [[NSUserDefaults standardUserDefaults] synchronize];
-            [self getNewInterfaceAndSendGetRequest];
         }
     }
     count++;
 }
 
 #pragma mark - Private
+-(void)getServerTime{
+    NSString *interfaceStr = @"http://qacivetadmin.foxconn.com/civetOA/getCurrentTime";
+    ZZW_HttpHelper * helper = [[ZZW_HttpHelper alloc] init];
+    helper.delegate = self;
+    [helper getRequestWith:interfaceStr];// 发送get请求
+}
 -(void)testHttps{
     NSString *urlStr = @"https://interface.flnet.com/IHome/GetAPPHomePage?bG90VHlwZT0yJnZlcnNpb249MS4xLjM5LjEmc3lzdGVtVmVyc2lvbj0xMS4yJnBob25lTW9kZWw9aVBob25lJnNvdXJjZT0xJmxvY2FsY2l0eT0zMzI=";
     for (NSInteger i = 0; i < 10; i++) {

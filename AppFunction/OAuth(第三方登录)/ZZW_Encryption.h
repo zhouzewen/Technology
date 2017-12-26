@@ -12,5 +12,6 @@
 
 //FIXME: 还有解密的方法没有写，以及16位的key的加密方法,最好是传入key、iV 然后根据长度动态去判断使用16位还是32位
 +(NSString *)AES128Encrypt:(NSString *)text;
++(NSString *)AES128Decrypt:(NSString *)encryptText;
 +(NSString *)md5:(NSString *)str;
 @end
