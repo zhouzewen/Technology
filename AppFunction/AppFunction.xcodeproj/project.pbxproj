@@ -49,6 +49,7 @@
 		6442E9D11FCCF0D900F0E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9D01FCCF0D900F0E082 /* Assets.xcassets */; };
 		6442E9D41FCCF0D900F0E082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9D21FCCF0D900F0E082 /* LaunchScreen.storyboard */; };
 		6442E9D71FCCF0D900F0E082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9D61FCCF0D900F0E082 /* main.m */; };
+		645AE05C1FF3825A00C85E18 /* ZZW_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */; };
 		6487E7231F74AB5C003934C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7221F74AB5C003934C2 /* AppDelegate.m */; };
 		6487E7261F74AB5C003934C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7251F74AB5C003934C2 /* ViewController.m */; };
 		6487E7291F74AB5C003934C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6487E7271F74AB5C003934C2 /* Main.storyboard */; };
@@ -206,6 +207,8 @@
 		6442E9D31FCCF0D900F0E082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6442E9D51FCCF0D900F0E082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6442E9D61FCCF0D900F0E082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		645AE05A1FF3825A00C85E18 /* ZZW_MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_MD5.h; sourceTree = "<group>"; };
+		645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_MD5.m; sourceTree = "<group>"; };
 		6487E71E1F74AB5C003934C2 /* AppFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6487E7211F74AB5C003934C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6487E7221F74AB5C003934C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -594,6 +597,8 @@
 				64C7BDB81FF2252800F46D56 /* ViewController.m */,
 				64C7BDCA1FF2254C00F46D56 /* ZZW_AES.h */,
 				64C7BDCB1FF2254C00F46D56 /* ZZW_AES.m */,
+				645AE05A1FF3825A00C85E18 /* ZZW_MD5.h */,
+				645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */,
 				64C7BDCD1FF22B6B00F46D56 /* ZZW_Model.h */,
 				64C7BDCE1FF22B6B00F46D56 /* ZZW_Model.m */,
 				64C7BDBA1FF2252800F46D56 /* Main.storyboard */,
@@ -1267,6 +1272,7 @@
 			files = (
 				64C7BDCF1FF22B6B00F46D56 /* ZZW_Model.m in Sources */,
 				64C7BDB91FF2252800F46D56 /* ViewController.m in Sources */,
+				645AE05C1FF3825A00C85E18 /* ZZW_MD5.m in Sources */,
 				64C7BDC41FF2252800F46D56 /* main.m in Sources */,
 				64C7BDB61FF2252800F46D56 /* AppDelegate.m in Sources */,
 				64C7BDCC1FF2254C00F46D56 /* ZZW_AES.m in Sources */,
