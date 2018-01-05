@@ -14,6 +14,13 @@
 		6404017D1FABF0D100C1F540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6404017B1FABF0D100C1F540 /* LaunchScreen.storyboard */; };
 		640401801FABF0D100C1F540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6404017F1FABF0D100C1F540 /* main.m */; };
 		64135BD61F99E90F00B963B6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64135BD51F99E90F00B963B6 /* TestViewController.m */; };
+		6417BD481FFE1B7300316F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD471FFE1B7300316F4E /* AppDelegate.m */; };
+		6417BD4B1FFE1B7300316F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD4A1FFE1B7300316F4E /* ViewController.m */; };
+		6417BD4E1FFE1B7300316F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD4C1FFE1B7300316F4E /* Main.storyboard */; };
+		6417BD501FFE1B7300316F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD4F1FFE1B7300316F4E /* Assets.xcassets */; };
+		6417BD531FFE1B7300316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD511FFE1B7300316F4E /* LaunchScreen.storyboard */; };
+		6417BD561FFE1B7300316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD551FFE1B7300316F4E /* main.m */; };
+		6417BD621FFE1D1100316F4E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6417BD5D1FFE1C1D00316F4E /* LocalAuthentication.framework */; };
 		64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1B1FDE5FFE00950EDA /* AppDelegate.m */; };
 		64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1E1FDE5FFE00950EDA /* ViewController.m */; };
 		64287D221FDE5FFE00950EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D201FDE5FFE00950EDA /* Main.storyboard */; };
@@ -145,6 +152,17 @@
 		6404017F1FABF0D100C1F540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64135BD41F99E90F00B963B6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		64135BD51F99E90F00B963B6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6417BD441FFE1B7300316F4E /* FaceID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6417BD461FFE1B7300316F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6417BD471FFE1B7300316F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6417BD491FFE1B7300316F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6417BD4A1FFE1B7300316F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6417BD4D1FFE1B7300316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6417BD4F1FFE1B7300316F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6417BD521FFE1B7300316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6417BD541FFE1B7300316F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6417BD551FFE1B7300316F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6417BD5D1FFE1C1D00316F4E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth(第三方登录).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64287D1A1FDE5FFE00950EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64287D1B1FDE5FFE00950EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -305,6 +323,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6417BD411FFE1B7300316F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD621FFE1D1100316F4E /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64287D151FDE5FFE00950EDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +432,30 @@
 				6404017F1FABF0D100C1F540 /* main.m */,
 			);
 			path = "BackgroundTime(申请后台时间)";
+			sourceTree = "<group>";
+		};
+		6417BD451FFE1B7300316F4E /* FaceID */ = {
+			isa = PBXGroup;
+			children = (
+				6417BD461FFE1B7300316F4E /* AppDelegate.h */,
+				6417BD471FFE1B7300316F4E /* AppDelegate.m */,
+				6417BD491FFE1B7300316F4E /* ViewController.h */,
+				6417BD4A1FFE1B7300316F4E /* ViewController.m */,
+				6417BD4C1FFE1B7300316F4E /* Main.storyboard */,
+				6417BD4F1FFE1B7300316F4E /* Assets.xcassets */,
+				6417BD511FFE1B7300316F4E /* LaunchScreen.storyboard */,
+				6417BD541FFE1B7300316F4E /* Info.plist */,
+				6417BD551FFE1B7300316F4E /* main.m */,
+			);
+			path = FaceID;
+			sourceTree = "<group>";
+		};
+		6417BD5C1FFE1C1D00316F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6417BD5D1FFE1C1D00316F4E /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		64287D191FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
@@ -513,7 +563,9 @@
 				6442E9C61FCCF0D800F0E082 /* ScalingAnimation(缩放动画) */,
 				64287D191FDE5FFE00950EDA /* OAuth(第三方登录) */,
 				64C7BDB31FF2252800F46D56 /* Encrypt&Decrypt(加密和解密) */,
+				6417BD451FFE1B7300316F4E /* FaceID */,
 				6487E71F1F74AB5C003934C2 /* Products */,
+				6417BD5C1FFE1C1D00316F4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -533,6 +585,7 @@
 				6442E9C51FCCF0D800F0E082 /* ScalingAnimation(缩放动画).app */,
 				64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */,
 				64C7BDB21FF2252700F46D56 /* Encrypt&Decrypt(加密和解密).app */,
+				6417BD441FFE1B7300316F4E /* FaceID.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -713,6 +766,23 @@
 			name = "BackgroundTime(申请后台时间)";
 			productName = "BackgroundTime(申请后台时间)";
 			productReference = 6404016E1FABF0D100C1F540 /* BackgroundTime(申请后台时间).app */;
+			productType = "com.apple.product-type.application";
+		};
+		6417BD431FFE1B7300316F4E /* FaceID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6417BD5B1FFE1B7300316F4E /* Build configuration list for PBXNativeTarget "FaceID" */;
+			buildPhases = (
+				6417BD401FFE1B7300316F4E /* Sources */,
+				6417BD411FFE1B7300316F4E /* Frameworks */,
+				6417BD421FFE1B7300316F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceID;
+			productName = FaceID;
+			productReference = 6417BD441FFE1B7300316F4E /* FaceID.app */;
 			productType = "com.apple.product-type.application";
 		};
 		64287D171FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
@@ -933,6 +1003,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					6417BD431FFE1B7300316F4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					64287D171FDE5FFE00950EDA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -1021,6 +1095,7 @@
 				6442E9C41FCCF0D800F0E082 /* ScalingAnimation(缩放动画) */,
 				64287D171FDE5FFE00950EDA /* OAuth(第三方登录) */,
 				64C7BDB11FF2252700F46D56 /* Encrypt&Decrypt(加密和解密) */,
+				6417BD431FFE1B7300316F4E /* FaceID */,
 			);
 		};
 /* End PBXProject section */
@@ -1050,6 +1125,16 @@
 				6404017D1FABF0D100C1F540 /* LaunchScreen.storyboard in Resources */,
 				6404017A1FABF0D100C1F540 /* Assets.xcassets in Resources */,
 				640401781FABF0D100C1F540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6417BD421FFE1B7300316F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD531FFE1B7300316F4E /* LaunchScreen.storyboard in Resources */,
+				6417BD501FFE1B7300316F4E /* Assets.xcassets in Resources */,
+				6417BD4E1FFE1B7300316F4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,6 +1265,16 @@
 				640401751FABF0D100C1F540 /* ViewController.m in Sources */,
 				640401801FABF0D100C1F540 /* main.m in Sources */,
 				640401721FABF0D100C1F540 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6417BD401FFE1B7300316F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD4B1FFE1B7300316F4E /* ViewController.m in Sources */,
+				6417BD561FFE1B7300316F4E /* main.m in Sources */,
+				6417BD481FFE1B7300316F4E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,6 +1429,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6404017C1FABF0D100C1F540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6417BD4C1FFE1B7300316F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417BD4D1FFE1B7300316F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6417BD511FFE1B7300316F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417BD521FFE1B7300316F4E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1542,6 +1653,40 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.BackgroundTime--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6417BD571FFE1B7300316F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = FaceID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouzewen.FaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6417BD581FFE1B7300316F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = FaceID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouzewen.FaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2022,6 +2167,15 @@
 			buildConfigurations = (
 				640401821FABF0D100C1F540 /* Debug */,
 				640401831FABF0D100C1F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6417BD5B1FFE1B7300316F4E /* Build configuration list for PBXNativeTarget "FaceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6417BD571FFE1B7300316F4E /* Debug */,
+				6417BD581FFE1B7300316F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
