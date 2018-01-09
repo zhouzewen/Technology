@@ -1,9 +1,9 @@
 //
 //  main.m
-//  AVFoundation(二维码扫描)
+//  QRCodeDemo
 //
-//  Created by 周泽文 on 2018/1/8.
-//  Copyright © 2018年 zhouzewen. All rights reserved.
+//  Created by c0ming on 10/30/15.
+//  Copyright © 2015 c0ming. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

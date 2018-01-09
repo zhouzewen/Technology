@@ -28,13 +28,18 @@
 		6417BD761FFF608300316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD741FFF608300316F4E /* LaunchScreen.storyboard */; };
 		6417BD791FFF608300316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD781FFF608300316F4E /* main.m */; };
 		6417BD7F2000728C00316F4E /* WKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD7E2000728C00316F4E /* WKWebViewViewController.m */; };
-		6417BD882003454400316F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD872003454400316F4E /* AppDelegate.m */; };
-		6417BD8B2003454400316F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD8A2003454400316F4E /* ViewController.m */; };
-		6417BD8E2003454400316F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD8C2003454400316F4E /* Main.storyboard */; };
-		6417BD902003454400316F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD8F2003454400316F4E /* Assets.xcassets */; };
-		6417BD932003454400316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD912003454400316F4E /* LaunchScreen.storyboard */; };
-		6417BD962003454400316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD952003454400316F4E /* main.m */; };
 		6417BD9B2003457800316F4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6417BD9A2003457800316F4E /* AVFoundation.framework */; };
+		6417BDA92004629F00316F4E /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD9D2004629E00316F4E /* Base.lproj */; };
+		6417BDAA2004629F00316F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD9E2004629E00316F4E /* Assets.xcassets */; };
+		6417BDAB2004629F00316F4E /* foobar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6417BDA12004629E00316F4E /* foobar.png */; };
+		6417BDAC2004629F00316F4E /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BDA22004629E00316F4E /* QRScanViewController.m */; };
+		6417BDAD2004629F00316F4E /* QRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BDA32004629E00316F4E /* QRScanView.m */; };
+		6417BDAE2004629F00316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BDA42004629E00316F4E /* main.m */; };
+		6417BDAF2004629F00316F4E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6417BDA52004629F00316F4E /* Info.plist */; };
+		6417BDB02004629F00316F4E /* QRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BDA72004629F00316F4E /* QRMainViewController.m */; };
+		6417BDB12004629F00316F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BDA82004629F00316F4E /* AppDelegate.m */; };
+		6417BDB62004633A00316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BDB22004633900316F4E /* LaunchScreen.storyboard */; };
+		6417BDB72004633A00316F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BDB42004633900316F4E /* Main.storyboard */; };
 		64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1B1FDE5FFE00950EDA /* AppDelegate.m */; };
 		64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1E1FDE5FFE00950EDA /* ViewController.m */; };
 		64287D221FDE5FFE00950EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D201FDE5FFE00950EDA /* Main.storyboard */; };
@@ -190,16 +195,22 @@
 		6417BD7D2000728B00316F4E /* WKWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewViewController.h; sourceTree = "<group>"; };
 		6417BD7E2000728C00316F4E /* WKWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewViewController.m; sourceTree = "<group>"; };
 		6417BD842003454400316F4E /* AVFoundation(二维码扫描).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation(二维码扫描).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6417BD862003454400316F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6417BD872003454400316F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6417BD892003454400316F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6417BD8A2003454400316F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6417BD8D2003454400316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6417BD8F2003454400316F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6417BD922003454400316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6417BD942003454400316F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6417BD952003454400316F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6417BD9A2003457800316F4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6417BD9C2004629D00316F4E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6417BD9D2004629E00316F4E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		6417BD9E2004629E00316F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6417BD9F2004629E00316F4E /* QRScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanView.h; sourceTree = "<group>"; };
+		6417BDA02004629E00316F4E /* QRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRMainViewController.h; sourceTree = "<group>"; };
+		6417BDA12004629E00316F4E /* foobar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foobar.png; sourceTree = "<group>"; };
+		6417BDA22004629E00316F4E /* QRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanViewController.m; sourceTree = "<group>"; };
+		6417BDA32004629E00316F4E /* QRScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanView.m; sourceTree = "<group>"; };
+		6417BDA42004629E00316F4E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6417BDA52004629F00316F4E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6417BDA62004629F00316F4E /* QRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanViewController.h; sourceTree = "<group>"; };
+		6417BDA72004629F00316F4E /* QRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMainViewController.m; sourceTree = "<group>"; };
+		6417BDA82004629F00316F4E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6417BDB32004633900316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6417BDB52004633900316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth(第三方登录).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64287D1A1FDE5FFE00950EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64287D1B1FDE5FFE00950EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -532,15 +543,21 @@
 		6417BD852003454400316F4E /* AVFoundation(二维码扫描) */ = {
 			isa = PBXGroup;
 			children = (
-				6417BD862003454400316F4E /* AppDelegate.h */,
-				6417BD872003454400316F4E /* AppDelegate.m */,
-				6417BD892003454400316F4E /* ViewController.h */,
-				6417BD8A2003454400316F4E /* ViewController.m */,
-				6417BD8C2003454400316F4E /* Main.storyboard */,
-				6417BD8F2003454400316F4E /* Assets.xcassets */,
-				6417BD912003454400316F4E /* LaunchScreen.storyboard */,
-				6417BD942003454400316F4E /* Info.plist */,
-				6417BD952003454400316F4E /* main.m */,
+				6417BD9C2004629D00316F4E /* AppDelegate.h */,
+				6417BDA82004629F00316F4E /* AppDelegate.m */,
+				6417BDA02004629E00316F4E /* QRMainViewController.h */,
+				6417BDA72004629F00316F4E /* QRMainViewController.m */,
+				6417BDA62004629F00316F4E /* QRScanViewController.h */,
+				6417BDA22004629E00316F4E /* QRScanViewController.m */,
+				6417BD9F2004629E00316F4E /* QRScanView.h */,
+				6417BDA32004629E00316F4E /* QRScanView.m */,
+				6417BDB22004633900316F4E /* LaunchScreen.storyboard */,
+				6417BDB42004633900316F4E /* Main.storyboard */,
+				6417BD9E2004629E00316F4E /* Assets.xcassets */,
+				6417BD9D2004629E00316F4E /* Base.lproj */,
+				6417BDA12004629E00316F4E /* foobar.png */,
+				6417BDA52004629F00316F4E /* Info.plist */,
+				6417BDA42004629E00316F4E /* main.m */,
 			);
 			path = "AVFoundation(二维码扫描)";
 			sourceTree = "<group>";
@@ -1287,9 +1304,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6417BD932003454400316F4E /* LaunchScreen.storyboard in Resources */,
-				6417BD902003454400316F4E /* Assets.xcassets in Resources */,
-				6417BD8E2003454400316F4E /* Main.storyboard in Resources */,
+				6417BDAF2004629F00316F4E /* Info.plist in Resources */,
+				6417BDAA2004629F00316F4E /* Assets.xcassets in Resources */,
+				6417BDAB2004629F00316F4E /* foobar.png in Resources */,
+				6417BDB72004633A00316F4E /* Main.storyboard in Resources */,
+				6417BDB62004633A00316F4E /* LaunchScreen.storyboard in Resources */,
+				6417BDA92004629F00316F4E /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1448,9 +1468,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6417BD8B2003454400316F4E /* ViewController.m in Sources */,
-				6417BD962003454400316F4E /* main.m in Sources */,
-				6417BD882003454400316F4E /* AppDelegate.m in Sources */,
+				6417BDB02004629F00316F4E /* QRMainViewController.m in Sources */,
+				6417BDAD2004629F00316F4E /* QRScanView.m in Sources */,
+				6417BDAE2004629F00316F4E /* main.m in Sources */,
+				6417BDAC2004629F00316F4E /* QRScanViewController.m in Sources */,
+				6417BDB12004629F00316F4E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1641,20 +1663,20 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		6417BD8C2003454400316F4E /* Main.storyboard */ = {
+		6417BDB22004633900316F4E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6417BD8D2003454400316F4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6417BD912003454400316F4E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6417BD922003454400316F4E /* Base */,
+				6417BDB32004633900316F4E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6417BDB42004633900316F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417BDB52004633900316F4E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		64287D201FDE5FFE00950EDA /* Main.storyboard */ = {

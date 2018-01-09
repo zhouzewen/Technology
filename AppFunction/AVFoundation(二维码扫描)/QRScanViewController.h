@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  QRScanViewController.h
 //  QRCodeDemo
 //
 //  Created by c0ming on 10/30/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface QRScanViewController : UIViewController
 
 @end
-
