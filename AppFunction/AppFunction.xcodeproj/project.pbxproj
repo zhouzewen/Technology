@@ -28,6 +28,13 @@
 		6417BD761FFF608300316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD741FFF608300316F4E /* LaunchScreen.storyboard */; };
 		6417BD791FFF608300316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD781FFF608300316F4E /* main.m */; };
 		6417BD7F2000728C00316F4E /* WKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD7E2000728C00316F4E /* WKWebViewViewController.m */; };
+		6417BD882003454400316F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD872003454400316F4E /* AppDelegate.m */; };
+		6417BD8B2003454400316F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD8A2003454400316F4E /* ViewController.m */; };
+		6417BD8E2003454400316F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD8C2003454400316F4E /* Main.storyboard */; };
+		6417BD902003454400316F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD8F2003454400316F4E /* Assets.xcassets */; };
+		6417BD932003454400316F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6417BD912003454400316F4E /* LaunchScreen.storyboard */; };
+		6417BD962003454400316F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417BD952003454400316F4E /* main.m */; };
+		6417BD9B2003457800316F4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6417BD9A2003457800316F4E /* AVFoundation.framework */; };
 		64287D1C1FDE5FFE00950EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1B1FDE5FFE00950EDA /* AppDelegate.m */; };
 		64287D1F1FDE5FFE00950EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D1E1FDE5FFE00950EDA /* ViewController.m */; };
 		64287D221FDE5FFE00950EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64287D201FDE5FFE00950EDA /* Main.storyboard */; };
@@ -182,6 +189,17 @@
 		6417BD781FFF608300316F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6417BD7D2000728B00316F4E /* WKWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewViewController.h; sourceTree = "<group>"; };
 		6417BD7E2000728C00316F4E /* WKWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewViewController.m; sourceTree = "<group>"; };
+		6417BD842003454400316F4E /* AVFoundation(二维码扫描).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation(二维码扫描).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6417BD862003454400316F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6417BD872003454400316F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6417BD892003454400316F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6417BD8A2003454400316F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6417BD8D2003454400316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6417BD8F2003454400316F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6417BD922003454400316F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6417BD942003454400316F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6417BD952003454400316F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6417BD9A2003457800316F4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		64287D181FDE5FFE00950EDA /* OAuth(第三方登录).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth(第三方登录).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64287D1A1FDE5FFE00950EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64287D1B1FDE5FFE00950EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -357,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6417BD812003454400316F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD9B2003457800316F4E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64287D151FDE5FFE00950EDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,6 +505,7 @@
 		6417BD5C1FFE1C1D00316F4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6417BD9A2003457800316F4E /* AVFoundation.framework */,
 				6417BD5D1FFE1C1D00316F4E /* LocalAuthentication.framework */,
 			);
 			name = Frameworks;
@@ -500,6 +527,22 @@
 				6417BD781FFF608300316F4E /* main.m */,
 			);
 			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		6417BD852003454400316F4E /* AVFoundation(二维码扫描) */ = {
+			isa = PBXGroup;
+			children = (
+				6417BD862003454400316F4E /* AppDelegate.h */,
+				6417BD872003454400316F4E /* AppDelegate.m */,
+				6417BD892003454400316F4E /* ViewController.h */,
+				6417BD8A2003454400316F4E /* ViewController.m */,
+				6417BD8C2003454400316F4E /* Main.storyboard */,
+				6417BD8F2003454400316F4E /* Assets.xcassets */,
+				6417BD912003454400316F4E /* LaunchScreen.storyboard */,
+				6417BD942003454400316F4E /* Info.plist */,
+				6417BD952003454400316F4E /* main.m */,
+			);
+			path = "AVFoundation(二维码扫描)";
 			sourceTree = "<group>";
 		};
 		64287D191FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
@@ -609,6 +652,7 @@
 				64C7BDB31FF2252800F46D56 /* Encrypt&Decrypt(加密和解密) */,
 				6417BD451FFE1B7300316F4E /* FaceID */,
 				6417BD681FFF608300316F4E /* WKWebView */,
+				6417BD852003454400316F4E /* AVFoundation(二维码扫描) */,
 				6487E71F1F74AB5C003934C2 /* Products */,
 				6417BD5C1FFE1C1D00316F4E /* Frameworks */,
 			);
@@ -632,6 +676,7 @@
 				64C7BDB21FF2252700F46D56 /* Encrypt&Decrypt(加密和解密).app */,
 				6417BD441FFE1B7300316F4E /* FaceID.app */,
 				6417BD671FFF608200316F4E /* WKWebView.app */,
+				6417BD842003454400316F4E /* AVFoundation(二维码扫描).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -846,6 +891,23 @@
 			name = WKWebView;
 			productName = WKWebView;
 			productReference = 6417BD671FFF608200316F4E /* WKWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6417BD832003454400316F4E /* AVFoundation(二维码扫描) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6417BD972003454400316F4E /* Build configuration list for PBXNativeTarget "AVFoundation(二维码扫描)" */;
+			buildPhases = (
+				6417BD802003454400316F4E /* Sources */,
+				6417BD812003454400316F4E /* Frameworks */,
+				6417BD822003454400316F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVFoundation(二维码扫描)";
+			productName = "AVFoundation(二维码扫描)";
+			productReference = 6417BD842003454400316F4E /* AVFoundation(二维码扫描).app */;
 			productType = "com.apple.product-type.application";
 		};
 		64287D171FDE5FFE00950EDA /* OAuth(第三方登录) */ = {
@@ -1074,6 +1136,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					6417BD832003454400316F4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					64287D171FDE5FFE00950EDA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -1164,6 +1230,7 @@
 				64C7BDB11FF2252700F46D56 /* Encrypt&Decrypt(加密和解密) */,
 				6417BD431FFE1B7300316F4E /* FaceID */,
 				6417BD661FFF608200316F4E /* WKWebView */,
+				6417BD832003454400316F4E /* AVFoundation(二维码扫描) */,
 			);
 		};
 /* End PBXProject section */
@@ -1213,6 +1280,16 @@
 				6417BD761FFF608300316F4E /* LaunchScreen.storyboard in Resources */,
 				6417BD731FFF608300316F4E /* Assets.xcassets in Resources */,
 				6417BD711FFF608300316F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6417BD822003454400316F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD932003454400316F4E /* LaunchScreen.storyboard in Resources */,
+				6417BD902003454400316F4E /* Assets.xcassets in Resources */,
+				6417BD8E2003454400316F4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1364,6 +1441,16 @@
 				6417BD791FFF608300316F4E /* main.m in Sources */,
 				6417BD7F2000728C00316F4E /* WKWebViewViewController.m in Sources */,
 				6417BD6B1FFF608300316F4E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6417BD802003454400316F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6417BD8B2003454400316F4E /* ViewController.m in Sources */,
+				6417BD962003454400316F4E /* main.m in Sources */,
+				6417BD882003454400316F4E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1550,6 +1637,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6417BD751FFF608300316F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6417BD8C2003454400316F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417BD8D2003454400316F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6417BD912003454400316F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6417BD922003454400316F4E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1821,6 +1924,36 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouzewen.WKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6417BD982003454400316F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "AVFoundation(二维码扫描)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.AVFoundation-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6417BD992003454400316F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "AVFoundation(二维码扫描)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.AVFoundation-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2320,6 +2453,15 @@
 			buildConfigurations = (
 				6417BD7B1FFF608300316F4E /* Debug */,
 				6417BD7C1FFF608300316F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6417BD972003454400316F4E /* Build configuration list for PBXNativeTarget "AVFoundation(二维码扫描)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6417BD982003454400316F4E /* Debug */,
+				6417BD992003454400316F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

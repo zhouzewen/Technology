@@ -17,27 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    //网页内容宽度适配  测试没有效果
-//    NSString *jScript = @"var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width'); document.getElementsByTagName('head')[0].appendChild(meta);";
-//
-//    WKUserScript *wkUScript = [[WKUserScript alloc] initWithSource:jScript injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
-//
-//    WKUserContentController *wkUController = [[WKUserContentController alloc] init];
-//
-//    [wkUController addUserScript:wkUScript];
-//
-//    WKWebViewConfiguration *wkWebConfig = [[WKWebViewConfiguration alloc] init];
-//
-//    wkWebConfig.userContentController = wkUController;
-//
-//    _webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:wkWebConfig];
-    
+    /**
+     1 wkwebView的使用
+     https://www.jianshu.com/p/556c988e2707
+     2 https
+     https://www.jianshu.com/p/9513d101e582
+     3 网页内容宽度适配  测试没有效果
+     //https://www.jianshu.com/p/cbf714b05d59
+     //https://www.jianshu.com/p/255fdb8f60d3
+     */
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
-    _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    
+//    _webView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    [[[_webView subviews] lastObject] setZoomScale:0.4];
     
     
     //20559 21113
