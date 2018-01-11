@@ -76,6 +76,8 @@
 		6442E9D41FCCF0D900F0E082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9D21FCCF0D900F0E082 /* LaunchScreen.storyboard */; };
 		6442E9D71FCCF0D900F0E082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9D61FCCF0D900F0E082 /* main.m */; };
 		645AE05C1FF3825A00C85E18 /* ZZW_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */; };
+		6478B38E2005E6D000CF72AC /* ZZW_ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6478B38D2005E6D000CF72AC /* ZZW_ScanView.m */; };
+		6478B3922005EA6900CF72AC /* QRCodeScanningLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6478B3912005EA6900CF72AC /* QRCodeScanningLine@3x.png */; };
 		6487E7231F74AB5C003934C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7221F74AB5C003934C2 /* AppDelegate.m */; };
 		6487E7261F74AB5C003934C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7251F74AB5C003934C2 /* ViewController.m */; };
 		6487E7291F74AB5C003934C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6487E7271F74AB5C003934C2 /* Main.storyboard */; };
@@ -275,6 +277,9 @@
 		6442E9D61FCCF0D900F0E082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		645AE05A1FF3825A00C85E18 /* ZZW_MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_MD5.h; sourceTree = "<group>"; };
 		645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_MD5.m; sourceTree = "<group>"; };
+		6478B38C2005E6D000CF72AC /* ZZW_ScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_ScanView.h; sourceTree = "<group>"; };
+		6478B38D2005E6D000CF72AC /* ZZW_ScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_ScanView.m; sourceTree = "<group>"; };
+		6478B3912005EA6900CF72AC /* QRCodeScanningLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLine@3x.png"; sourceTree = "<group>"; };
 		6487E71E1F74AB5C003934C2 /* AppFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6487E7211F74AB5C003934C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6487E7221F74AB5C003934C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -549,8 +554,11 @@
 				6417BDA72004629F00316F4E /* QRMainViewController.m */,
 				6417BDA62004629F00316F4E /* QRScanViewController.h */,
 				6417BDA22004629E00316F4E /* QRScanViewController.m */,
+				6478B38C2005E6D000CF72AC /* ZZW_ScanView.h */,
+				6478B38D2005E6D000CF72AC /* ZZW_ScanView.m */,
 				6417BD9F2004629E00316F4E /* QRScanView.h */,
 				6417BDA32004629E00316F4E /* QRScanView.m */,
+				6478B3912005EA6900CF72AC /* QRCodeScanningLine@3x.png */,
 				6417BDB22004633900316F4E /* LaunchScreen.storyboard */,
 				6417BDB42004633900316F4E /* Main.storyboard */,
 				6417BD9E2004629E00316F4E /* Assets.xcassets */,
@@ -1306,6 +1314,7 @@
 			files = (
 				6417BDAF2004629F00316F4E /* Info.plist in Resources */,
 				6417BDAA2004629F00316F4E /* Assets.xcassets in Resources */,
+				6478B3922005EA6900CF72AC /* QRCodeScanningLine@3x.png in Resources */,
 				6417BDAB2004629F00316F4E /* foobar.png in Resources */,
 				6417BDB72004633A00316F4E /* Main.storyboard in Resources */,
 				6417BDB62004633A00316F4E /* LaunchScreen.storyboard in Resources */,
@@ -1471,6 +1480,7 @@
 				6417BDB02004629F00316F4E /* QRMainViewController.m in Sources */,
 				6417BDAD2004629F00316F4E /* QRScanView.m in Sources */,
 				6417BDAE2004629F00316F4E /* main.m in Sources */,
+				6478B38E2005E6D000CF72AC /* ZZW_ScanView.m in Sources */,
 				6417BDAC2004629F00316F4E /* QRScanViewController.m in Sources */,
 				6417BDB12004629F00316F4E /* AppDelegate.m in Sources */,
 			);

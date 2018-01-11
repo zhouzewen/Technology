@@ -12,15 +12,15 @@
  
  */
 #import "QRScanViewController.h"
-
 #import "QRScanView.h"
-
+#import "ZZW_ScanView.h"
 @import AVFoundation;
 
 @interface QRScanViewController () <AVCaptureMetadataOutputObjectsDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, assign) CGRect scanRect;
 @property (nonatomic, assign) BOOL isQRCodeCaptured;
+@property (nonatomic, strong) ZZW_ScanView *scanView;
 
 @end
 
@@ -32,7 +32,14 @@
     
     [self setup];
 }
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.scanView removeTimer];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
@@ -88,8 +95,11 @@
 			break;
 		}
 	}
-
-	self.scanRect = CGRectMake(60.0f, 100.0f, 200.0f, 200.0f);
+    CGFloat width = 0.7 * self.view.frame.size.width;
+    CGFloat x = 0.5 * (1 - 0.7) * self.view.frame.size.width;
+    CGFloat y = 0.5 * ((self.view.frame.size.height * 0.9) - width);
+    
+	self.scanRect = CGRectMake(x, y, width, width);
 }
 
 - (void)setupCapture {
@@ -118,9 +128,10 @@
 		                                                  usingBlock: ^(NSNotification *_Nonnull note) {
                 metadataOutput.rectOfInterest = [previewLayer metadataOutputRectOfInterestForRect:weakSelf.scanRect]; // 如果不设置，整个屏幕都可以扫
 			}];
-
-		    QRScanView *scanView = [[QRScanView alloc] initWithScanRect:self.scanRect];
-		    [self.view addSubview:scanView];
+            self.scanView = [[ZZW_ScanView alloc] initWithScanRect:self.scanRect scanViewFrame:self.view.frame];
+            [self.view addSubview:self.scanView];
+            [self.scanView addTimer];
+            
 
 		    [session startRunning];
 		} else {
@@ -135,6 +146,7 @@
 	AVMetadataMachineReadableCodeObject *metadataObject = metadataObjects.firstObject;
 	if ([metadataObject.type isEqualToString:AVMetadataObjectTypeQRCode] && !self.isQRCodeCaptured) {
 		self.isQRCodeCaptured = YES;
+        [self.scanView removeTimer];
 		[self showAlertViewWithMessage:metadataObject.stringValue];
 	}
 }
@@ -165,6 +177,7 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 	self.isQRCodeCaptured = NO;
+    [self.scanView addTimer];
 }
 
 #pragma mark - Private Methods

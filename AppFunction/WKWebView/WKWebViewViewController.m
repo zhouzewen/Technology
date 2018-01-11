@@ -25,7 +25,12 @@
      3 网页内容宽度适配  测试没有效果
      //https://www.jianshu.com/p/cbf714b05d59
      //https://www.jianshu.com/p/255fdb8f60d3
+     
+     4 WKWebView强大的新特性
+     http://www.cocoachina.com/ios/20180111/21818.html
+     
      */
+    
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
