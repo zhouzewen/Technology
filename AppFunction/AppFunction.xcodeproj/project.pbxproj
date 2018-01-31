@@ -50,6 +50,8 @@
 		64287D3C1FDF829100950EDA /* ZZW_Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3B1FDF829100950EDA /* ZZW_Encryption.m */; };
 		64287D3F1FDFB2DB00950EDA /* NSString+ZZW_String.m in Sources */ = {isa = PBXBuildFile; fileRef = 64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */; };
 		6435354D1F7CE93000FC8982 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435354C1F7CE93000FC8982 /* Person.m */; };
+		643B8CC820186B5900DE695C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643B8CC620186B5900DE695C /* Main.storyboard */; };
+		643B8CFC201EC15600DE695C /* WebViewJsBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 643B8CF9201EC15600DE695C /* WebViewJsBridge.js */; };
 		6442E95F1FCC4A1700F0E082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E95E1FCC4A1700F0E082 /* AppDelegate.m */; };
 		6442E9621FCC4A1700F0E082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9611FCC4A1700F0E082 /* ViewController.m */; };
 		6442E9651FCC4A1700F0E082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9631FCC4A1700F0E082 /* Main.storyboard */; };
@@ -63,7 +65,6 @@
 		6442E9811FCC4A4000F0E082 /* DelegateTestClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E97C1FCC4A4000F0E082 /* DelegateTestClass2.m */; };
 		6442E9A71FCC4CAF00F0E082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9A61FCC4CAF00F0E082 /* AppDelegate.m */; };
 		6442E9AA1FCC4CAF00F0E082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9A91FCC4CAF00F0E082 /* ViewController.m */; };
-		6442E9AD1FCC4CAF00F0E082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9AB1FCC4CAF00F0E082 /* Main.storyboard */; };
 		6442E9AF1FCC4CAF00F0E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9AE1FCC4CAF00F0E082 /* Assets.xcassets */; };
 		6442E9B21FCC4CAF00F0E082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9B01FCC4CAF00F0E082 /* LaunchScreen.storyboard */; };
 		6442E9B51FCC4CAF00F0E082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9B41FCC4CAF00F0E082 /* main.m */; };
@@ -76,8 +77,21 @@
 		6442E9D41FCCF0D900F0E082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6442E9D21FCCF0D900F0E082 /* LaunchScreen.storyboard */; };
 		6442E9D71FCCF0D900F0E082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442E9D61FCCF0D900F0E082 /* main.m */; };
 		645AE05C1FF3825A00C85E18 /* ZZW_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */; };
+		645E37442012CE6100229A16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E37432012CE6100229A16 /* AppDelegate.m */; };
+		645E37472012CE6100229A16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E37462012CE6100229A16 /* ViewController.m */; };
+		645E374A2012CE6200229A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E37482012CE6200229A16 /* Main.storyboard */; };
+		645E374C2012CE6200229A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645E374B2012CE6200229A16 /* Assets.xcassets */; };
+		645E374F2012CE6200229A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E374D2012CE6200229A16 /* LaunchScreen.storyboard */; };
+		645E37522012CE6200229A16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E37512012CE6200229A16 /* main.m */; };
+		645E375A2012EB4800229A16 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E37592012EB4700229A16 /* TestClass.m */; };
 		6478B38E2005E6D000CF72AC /* ZZW_ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6478B38D2005E6D000CF72AC /* ZZW_ScanView.m */; };
 		6478B3922005EA6900CF72AC /* QRCodeScanningLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6478B3912005EA6900CF72AC /* QRCodeScanningLine@3x.png */; };
+		6478B39F20088E8800CF72AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6478B39E20088E8800CF72AC /* AppDelegate.m */; };
+		6478B3A220088E8800CF72AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6478B3A120088E8800CF72AC /* ViewController.m */; };
+		6478B3A520088E8800CF72AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6478B3A320088E8800CF72AC /* Main.storyboard */; };
+		6478B3A720088E8800CF72AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6478B3A620088E8800CF72AC /* Assets.xcassets */; };
+		6478B3AA20088E8800CF72AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6478B3A820088E8800CF72AC /* LaunchScreen.storyboard */; };
+		6478B3AD20088E8800CF72AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6478B3AC20088E8800CF72AC /* main.m */; };
 		6487E7231F74AB5C003934C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7221F74AB5C003934C2 /* AppDelegate.m */; };
 		6487E7261F74AB5C003934C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6487E7251F74AB5C003934C2 /* ViewController.m */; };
 		6487E7291F74AB5C003934C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6487E7271F74AB5C003934C2 /* Main.storyboard */; };
@@ -231,6 +245,8 @@
 		64287D3E1FDFB2DB00950EDA /* NSString+ZZW_String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZW_String.m"; sourceTree = "<group>"; };
 		6435354B1F7CE93000FC8982 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		6435354C1F7CE93000FC8982 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		643B8CC720186B5900DE695C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		643B8CF9201EC15600DE695C /* WebViewJsBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJsBridge.js; sourceTree = "<group>"; };
 		6442E95B1FCC4A1700F0E082 /* TouchTable(触点判断).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TouchTable(触点判断).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6442E95D1FCC4A1700F0E082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6442E95E1FCC4A1700F0E082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -256,7 +272,6 @@
 		6442E9A61FCC4CAF00F0E082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6442E9A81FCC4CAF00F0E082 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6442E9A91FCC4CAF00F0E082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6442E9AC1FCC4CAF00F0E082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6442E9AE1FCC4CAF00F0E082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6442E9B11FCC4CAF00F0E082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6442E9B31FCC4CAF00F0E082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -277,9 +292,31 @@
 		6442E9D61FCCF0D900F0E082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		645AE05A1FF3825A00C85E18 /* ZZW_MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_MD5.h; sourceTree = "<group>"; };
 		645AE05B1FF3825A00C85E18 /* ZZW_MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_MD5.m; sourceTree = "<group>"; };
+		645E37402012CE6100229A16 /* WKWebView&JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKWebView&JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E37422012CE6100229A16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		645E37432012CE6100229A16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		645E37452012CE6100229A16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		645E37462012CE6100229A16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		645E37492012CE6200229A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		645E374B2012CE6200229A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645E374E2012CE6200229A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645E37502012CE6200229A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645E37512012CE6200229A16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		645E37582012EB4700229A16 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		645E37592012EB4700229A16 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		6478B38C2005E6D000CF72AC /* ZZW_ScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZW_ScanView.h; sourceTree = "<group>"; };
 		6478B38D2005E6D000CF72AC /* ZZW_ScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZW_ScanView.m; sourceTree = "<group>"; };
 		6478B3912005EA6900CF72AC /* QRCodeScanningLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanningLine@3x.png"; sourceTree = "<group>"; };
+		6478B39B20088E8700CF72AC /* CoreImage(二维码生成).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreImage(二维码生成).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6478B39D20088E8800CF72AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6478B39E20088E8800CF72AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6478B3A020088E8800CF72AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6478B3A120088E8800CF72AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6478B3A420088E8800CF72AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6478B3A620088E8800CF72AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6478B3A920088E8800CF72AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6478B3AB20088E8800CF72AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6478B3AC20088E8800CF72AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6487E71E1F74AB5C003934C2 /* AppFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6487E7211F74AB5C003934C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6487E7221F74AB5C003934C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -421,6 +458,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6442E9C21FCCF0D800F0E082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E373D2012CE6100229A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6478B39820088E8700CF72AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -633,7 +684,7 @@
 				6442E9B91FCC4CD100F0E082 /* AddNaviViewController.m */,
 				6442E9BB1FCC4CD100F0E082 /* TestViewController.h */,
 				6442E9BC1FCC4CD100F0E082 /* TestViewController.m */,
-				6442E9AB1FCC4CAF00F0E082 /* Main.storyboard */,
+				643B8CC620186B5900DE695C /* Main.storyboard */,
 				6442E9AE1FCC4CAF00F0E082 /* Assets.xcassets */,
 				6442E9B01FCC4CAF00F0E082 /* LaunchScreen.storyboard */,
 				6442E9B31FCC4CAF00F0E082 /* Info.plist */,
@@ -658,6 +709,41 @@
 			path = "ScalingAnimation(缩放动画)";
 			sourceTree = "<group>";
 		};
+		645E37412012CE6100229A16 /* WKWebView&JS */ = {
+			isa = PBXGroup;
+			children = (
+				645E37422012CE6100229A16 /* AppDelegate.h */,
+				645E37432012CE6100229A16 /* AppDelegate.m */,
+				645E37452012CE6100229A16 /* ViewController.h */,
+				645E37462012CE6100229A16 /* ViewController.m */,
+				643B8CF9201EC15600DE695C /* WebViewJsBridge.js */,
+				645E37582012EB4700229A16 /* TestClass.h */,
+				645E37592012EB4700229A16 /* TestClass.m */,
+				645E37482012CE6200229A16 /* Main.storyboard */,
+				645E374B2012CE6200229A16 /* Assets.xcassets */,
+				645E374D2012CE6200229A16 /* LaunchScreen.storyboard */,
+				645E37502012CE6200229A16 /* Info.plist */,
+				645E37512012CE6200229A16 /* main.m */,
+			);
+			path = "WKWebView&JS";
+			sourceTree = "<group>";
+		};
+		6478B39C20088E8800CF72AC /* CoreImage(二维码生成) */ = {
+			isa = PBXGroup;
+			children = (
+				6478B39D20088E8800CF72AC /* AppDelegate.h */,
+				6478B39E20088E8800CF72AC /* AppDelegate.m */,
+				6478B3A020088E8800CF72AC /* ViewController.h */,
+				6478B3A120088E8800CF72AC /* ViewController.m */,
+				6478B3A320088E8800CF72AC /* Main.storyboard */,
+				6478B3A620088E8800CF72AC /* Assets.xcassets */,
+				6478B3A820088E8800CF72AC /* LaunchScreen.storyboard */,
+				6478B3AB20088E8800CF72AC /* Info.plist */,
+				6478B3AC20088E8800CF72AC /* main.m */,
+			);
+			path = "CoreImage(二维码生成)";
+			sourceTree = "<group>";
+		};
 		6487E7151F74AB5C003934C2 = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +764,8 @@
 				6417BD451FFE1B7300316F4E /* FaceID */,
 				6417BD681FFF608300316F4E /* WKWebView */,
 				6417BD852003454400316F4E /* AVFoundation(二维码扫描) */,
+				6478B39C20088E8800CF72AC /* CoreImage(二维码生成) */,
+				645E37412012CE6100229A16 /* WKWebView&JS */,
 				6487E71F1F74AB5C003934C2 /* Products */,
 				6417BD5C1FFE1C1D00316F4E /* Frameworks */,
 			);
@@ -702,6 +790,8 @@
 				6417BD441FFE1B7300316F4E /* FaceID.app */,
 				6417BD671FFF608200316F4E /* WKWebView.app */,
 				6417BD842003454400316F4E /* AVFoundation(二维码扫描).app */,
+				6478B39B20088E8700CF72AC /* CoreImage(二维码生成).app */,
+				645E37402012CE6100229A16 /* WKWebView&JS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1003,6 +1093,40 @@
 			productReference = 6442E9C51FCCF0D800F0E082 /* ScalingAnimation(缩放动画).app */;
 			productType = "com.apple.product-type.application";
 		};
+		645E373F2012CE6100229A16 /* WKWebView&JS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645E37572012CE6200229A16 /* Build configuration list for PBXNativeTarget "WKWebView&JS" */;
+			buildPhases = (
+				645E373C2012CE6100229A16 /* Sources */,
+				645E373D2012CE6100229A16 /* Frameworks */,
+				645E373E2012CE6100229A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKWebView&JS";
+			productName = "WKWebView&JS";
+			productReference = 645E37402012CE6100229A16 /* WKWebView&JS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6478B39A20088E8700CF72AC /* CoreImage(二维码生成) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6478B3B220088E8800CF72AC /* Build configuration list for PBXNativeTarget "CoreImage(二维码生成)" */;
+			buildPhases = (
+				6478B39720088E8700CF72AC /* Sources */,
+				6478B39820088E8700CF72AC /* Frameworks */,
+				6478B39920088E8700CF72AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreImage(二维码生成)";
+			productName = "CoreImage(二维码生成)";
+			productReference = 6478B39B20088E8700CF72AC /* CoreImage(二维码生成).app */;
+			productType = "com.apple.product-type.application";
+		};
 		6487E71D1F74AB5C003934C2 /* AppFunction */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6487E7341F74AB5C003934C2 /* Build configuration list for PBXNativeTarget "AppFunction" */;
@@ -1181,6 +1305,14 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					645E373F2012CE6100229A16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6478B39A20088E8700CF72AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					6487E71D1F74AB5C003934C2 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -1256,6 +1388,8 @@
 				6417BD431FFE1B7300316F4E /* FaceID */,
 				6417BD661FFF608200316F4E /* WKWebView */,
 				6417BD832003454400316F4E /* AVFoundation(二维码扫描) */,
+				6478B39A20088E8700CF72AC /* CoreImage(二维码生成) */,
+				645E373F2012CE6100229A16 /* WKWebView&JS */,
 			);
 		};
 /* End PBXProject section */
@@ -1346,9 +1480,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643B8CC820186B5900DE695C /* Main.storyboard in Resources */,
 				6442E9B21FCC4CAF00F0E082 /* LaunchScreen.storyboard in Resources */,
 				6442E9AF1FCC4CAF00F0E082 /* Assets.xcassets in Resources */,
-				6442E9AD1FCC4CAF00F0E082 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1359,6 +1493,27 @@
 				6442E9D41FCCF0D900F0E082 /* LaunchScreen.storyboard in Resources */,
 				6442E9D11FCCF0D900F0E082 /* Assets.xcassets in Resources */,
 				6442E9CF1FCCF0D800F0E082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E373E2012CE6100229A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643B8CFC201EC15600DE695C /* WebViewJsBridge.js in Resources */,
+				645E374F2012CE6200229A16 /* LaunchScreen.storyboard in Resources */,
+				645E374C2012CE6200229A16 /* Assets.xcassets in Resources */,
+				645E374A2012CE6200229A16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6478B39920088E8700CF72AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6478B3AA20088E8800CF72AC /* LaunchScreen.storyboard in Resources */,
+				6478B3A720088E8800CF72AC /* Assets.xcassets in Resources */,
+				6478B3A520088E8800CF72AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1538,6 +1693,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		645E373C2012CE6100229A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645E375A2012EB4800229A16 /* TestClass.m in Sources */,
+				645E37472012CE6100229A16 /* ViewController.m in Sources */,
+				645E37522012CE6200229A16 /* main.m in Sources */,
+				645E37442012CE6100229A16 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6478B39720088E8700CF72AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6478B3A220088E8800CF72AC /* ViewController.m in Sources */,
+				6478B3AD20088E8800CF72AC /* main.m in Sources */,
+				6478B39F20088E8800CF72AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6487E71A1F74AB5C003934C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1705,6 +1881,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		643B8CC620186B5900DE695C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643B8CC720186B5900DE695C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6442E9631FCC4A1700F0E082 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1719,14 +1903,6 @@
 				6442E9691FCC4A1700F0E082 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6442E9AB1FCC4CAF00F0E082 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6442E9AC1FCC4CAF00F0E082 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6442E9B01FCC4CAF00F0E082 /* LaunchScreen.storyboard */ = {
@@ -1749,6 +1925,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				6442E9D31FCCF0D900F0E082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		645E37482012CE6200229A16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645E37492012CE6200229A16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		645E374D2012CE6200229A16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645E374E2012CE6200229A16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6478B3A320088E8800CF72AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6478B3A420088E8800CF72AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6478B3A820088E8800CF72AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6478B3A920088E8800CF72AC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2052,7 +2260,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
 				INFOPLIST_FILE = "ViewOrigin(导航栏子视图起点)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.ViewOrigin----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2065,7 +2275,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
 				INFOPLIST_FILE = "ViewOrigin(导航栏子视图起点)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.ViewOrigin----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2098,6 +2310,66 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.ScalingAnimation------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		645E37532012CE6200229A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "WKWebView&JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.WKWebView-JS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645E37542012CE6200229A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "WKWebView&JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.WKWebView-JS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6478B3AE20088E8800CF72AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "CoreImage(二维码生成)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CoreImage-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6478B3AF20088E8800CF72AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9D5GG355R9;
+				INFOPLIST_FILE = "CoreImage(二维码生成)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhouzewen.CoreImage-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2530,6 +2802,24 @@
 			buildConfigurations = (
 				6442E9D81FCCF0D900F0E082 /* Debug */,
 				6442E9D91FCCF0D900F0E082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645E37572012CE6200229A16 /* Build configuration list for PBXNativeTarget "WKWebView&JS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E37532012CE6200229A16 /* Debug */,
+				645E37542012CE6200229A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6478B3B220088E8800CF72AC /* Build configuration list for PBXNativeTarget "CoreImage(二维码生成)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6478B3AE20088E8800CF72AC /* Debug */,
+				6478B3AF20088E8800CF72AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -31,7 +31,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)dealloc{
+    NSLog(@"%s %@",__func__,[NSThread currentThread]);
+}
 /*
 #pragma mark - Navigation
 

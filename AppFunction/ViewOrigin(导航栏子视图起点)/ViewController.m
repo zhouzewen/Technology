@@ -34,7 +34,9 @@
     
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)dealloc{
+    NSLog(@"%s %@",__func__,[NSThread currentThread]);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
