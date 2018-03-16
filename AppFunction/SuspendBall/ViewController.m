@@ -20,7 +20,7 @@
     Zzw_SuspendBallButton * suspendBall = [[Zzw_SuspendBallButton sharedInstance] suspendBallWithFrame:CGRectMake(0, 64, 50, 50) delegate:self subBallImagePath:@"circle"];
     [self.view addSubview:suspendBall];
     
-    Zzw_SuspendBallButton * suspendBall2 = [[Zzw_SuspendBallButton sharedInstance] suspendBallWithFrame:CGRectMake(0, 64, 50, 50) delegate:self subBallImagePath:@"circle"];
+//    Zzw_SuspendBallButton * suspendBall2 = [[Zzw_SuspendBallButton sharedInstance] suspendBallWithFrame:CGRectMake(0, 64, 50, 50) delegate:self subBallImagePath:@"circle"];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
